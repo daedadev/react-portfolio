@@ -1,0 +1,58 @@
+/* Change the color of the links when clicked */
+a:visited {
+  color: var(--red);
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--grey);
+  color: #ffffff;
+  justify-content: flex-end;
+  color: var(--red);
+  justify-content: space-between;
+}
+
+/* Profile Picture along with name */
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div h2 {
+  font-size: 30px;
+}
+
+header div img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+header h1 {
+  display: flex;
+  font-size: 48px;
+}
+
+header nav {
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+header nav ul li {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+}
