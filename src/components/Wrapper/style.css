@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: var(--lightergrey);
+}
+
+h1 {
+  color: var(--grey);
+}
+
+/* Change the color of the links when clicked */
+a:visited {
+  color: var(--red);
+}

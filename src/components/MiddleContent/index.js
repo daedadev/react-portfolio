@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function MiddleContent() {
   return (
-    <section id="work" class="left-and-right">
-      <section class="left">
+    <section id="work" className="left-and-right">
+      <section className="left">
         <h1>Work</h1>
       </section>
 
-      <section class="work-right">
-        <article class="large-work">
+      <section className="work-right">
+        <article className="large-work">
           <div
-            style="background-image: url('/Assets/images/dealership.PNG')"
-            onclick="location.href='https://github.com/JustinBrubaker7/Dealership';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>
@@ -21,20 +22,17 @@ function MiddleContent() {
         </article>
 
         <article class="small-work">
-          <div
-            style="background-image: url('/Assets/images/pokemon.PNG')"
-            onclick="location.href='https://github.com/wron1/team-project';"
-          >
-            &nbsp;
+          <div style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}>
+            <Link to="https://github.com/wron1/tech-blog" />
           </div>
 
           <p>Pokemon Card Tracker</p>
         </article>
 
-        <article class="small-work">
+        <article className="small-work">
           <div
-            style="background-image: url('/Assets/images/techblog.PNG')"
-            onclick="location.href='https://github.com/wron1/tech-blog';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>
@@ -42,10 +40,10 @@ function MiddleContent() {
           <p>Tech Blog</p>
         </article>
 
-        <article class="small-work">
+        <article className="small-work">
           <div
-            style="background-image: url('/Assets/images/teamprofile.PNG')"
-            onclick="location.href='https://github.com/wron1/Team-Profile-Generator';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>
@@ -53,10 +51,10 @@ function MiddleContent() {
           <p>Team Profile Generator</p>
         </article>
 
-        <article class="small-work">
+        <article className="small-work">
           <div
-            style="background-image: url('/Assets/images/weather.PNG')"
-            onclick="location.href='https://github.com/wron1/weather-dashboard';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>
@@ -64,10 +62,10 @@ function MiddleContent() {
           <p>Weather Dashboard</p>
         </article>
 
-        <article class="small-work">
+        <article className="small-work">
           <div
-            style="background-image: url('/Assets/images/quiz.PNG')"
-            onclick="location.href='https://github.com/wron1/code-quiz';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>
@@ -75,10 +73,10 @@ function MiddleContent() {
           <p>Code Quiz</p>
         </article>
 
-        <article class="small-work">
+        <article className="small-work">
           <div
-            style="background-image: url('/Assets/images/scheduler.PNG')"
-            onclick="location.href='https://github.com/wron1/work-day-scheduler';"
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onclick={"location.href='https://github.com/wron1/tech-blog';"}
           >
             &nbsp;
           </div>

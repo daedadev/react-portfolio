@@ -3,12 +3,12 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer id="footer" class="left-and-right">
-      <article class="left">
+    <footer id="footer" className="left-and-right">
+      <article className="left">
         <h1>Contact</h1>
         <h1>Me</h1>
       </article>
-      <article class="right">
+      <article className="right">
         <nav>
           <ul>
             <li>

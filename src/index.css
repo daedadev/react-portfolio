@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --red: rgb(255, 255, 255);
+  --grey: rgb(129, 5, 5);
+  --lightgrey: rgb(158, 158, 158);
+  --lightergrey: rgb(136, 136, 136);
+}
+
+/* Styling the About Me paragraphs */
+#about-me article p {
+  font-size: 300;
+  color: var(--red);
+}
+
+body {
+  background-color: var(--lightergrey);
+}
+
+h1 {
+  color: var(--grey);
+}

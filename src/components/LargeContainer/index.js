@@ -6,7 +6,7 @@ import MiddleContent from "../MiddleContent";
 
 function LargeContainer() {
   return (
-    <section class="large-container">
+    <section className="large-container">
       <AboutMe />
       <MiddleContent />
       <Footer />

@@ -3,13 +3,13 @@ import "./style.css";
 
 function AboutMe() {
   return (
-    <section id="about-me" class="left-and-right">
-      <article class="left">
+    <section id="about-me" className="left-and-right">
+      <article className="left">
         <h1>About</h1>
         <h1>Me</h1>
       </article>
 
-      <article class="right">
+      <article className="right">
         <p>
           My name is Daniel Moore and I am a 24 year old student programmer who
           is currently learning Javascript and CSS under the direction of Farish
