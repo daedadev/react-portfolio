@@ -11,9 +11,22 @@ function MiddleContent() {
       <section className="work-right">
         <article className="large-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/counsel.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href =
+                "https://github.com/JustinBrubaker7/counsel-central")
+            }
+          ></div>
+
+          <p>Counsel Central</p>
+        </article>
+
+        <article className="large-work">
+          <div
+            style={{ backgroundImage: `url('/images/dealership.PNG')` }}
+            onClick={(event) =>
+              (window.location.href =
+                "https://github.com/JustinBrubaker7/Dealership")
             }
           ></div>
 
@@ -22,9 +35,10 @@ function MiddleContent() {
 
         <article class="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/pokemon.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href =
+                "https://github.com/wron1/pokemon-tracker")
             }
           ></div>
 
@@ -33,7 +47,7 @@ function MiddleContent() {
 
         <article className="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/techblog.PNG')` }}
             onClick={(event) =>
               (window.location.href = "https://github.com/wron1/tech-blog")
             }
@@ -44,9 +58,10 @@ function MiddleContent() {
 
         <article className="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/teamprofile.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href =
+                "https://github.com/wron1/team-profile-generator")
             }
           ></div>
 
@@ -55,9 +70,10 @@ function MiddleContent() {
 
         <article className="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/weather.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href =
+                "https://github.com/wron1/weatherr-dashboard")
             }
           ></div>
 
@@ -66,9 +82,9 @@ function MiddleContent() {
 
         <article className="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/quiz.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href = "https://github.com/wron1/code-quiz")
             }
           ></div>
 
@@ -77,9 +93,10 @@ function MiddleContent() {
 
         <article className="small-work">
           <div
-            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            style={{ backgroundImage: `url('/images/scheduler.PNG')` }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/wron1/tech-blog")
+              (window.location.href =
+                "https://github.com/wron1/work-day-scheduler")
             }
           ></div>
 

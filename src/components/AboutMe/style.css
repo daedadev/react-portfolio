@@ -11,6 +11,10 @@
   font-size: 36px;
 }
 
+p {
+  font-size: x-large;
+}
+
 /* General Right Items */
 .right {
   display: flex;
