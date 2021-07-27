@@ -4,7 +4,7 @@ import AppNav from "./components/AppNav";
 
 function App() {
   return (
-    <Router>
+    <Router basename="react-portfolio">
       <AppNav />
     </Router>
   );
