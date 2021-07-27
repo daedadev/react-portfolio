@@ -11,17 +11,11 @@ function MiddleContent() {
       </section>
 
       <section className="work-right">
-        <article className="large-work">
-          <div
-            style={{ backgroundImage: `url('/images/counsel.PNG')` }}
-            onClick={(event) =>
-              (window.location.href =
-                "https://github.com/JustinBrubaker7/counsel-central")
-            }
-          ></div>
-
-          <p>Counsel Central</p>
-        </article>
+        <LargeProject
+          directory={"https://github.com/JustinBrubaker7/counsel-central"}
+          title={"Counsel Central"}
+          image={`url('/images/counsel.PNG')`}
+        />
 
         <article className="large-work">
           <div

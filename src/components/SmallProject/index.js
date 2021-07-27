@@ -5,8 +5,8 @@ function SmallProject({ directory, title, image }) {
   return (
     <article className="large-work">
       <div
-        style={{ backgroundImage: { image } }}
-        onClick={(event) => (window.location.href = { directory })}
+        style={{ backgroundImage: image }}
+        onClick={(event) => (window.location.href = directory)}
       ></div>
 
       <p>{title}</p>
