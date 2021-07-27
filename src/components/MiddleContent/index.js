@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import LargeProject from "../LargeProject";
+import SmallProject from "../SmallProject";
 
 function MiddleContent() {
   return (
@@ -73,7 +75,7 @@ function MiddleContent() {
             style={{ backgroundImage: `url('/images/weather.PNG')` }}
             onClick={(event) =>
               (window.location.href =
-                "https://github.com/wron1/weatherr-dashboard")
+                "https://github.com/wron1/weather-dashboard")
             }
           ></div>
 
