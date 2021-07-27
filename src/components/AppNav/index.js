@@ -14,10 +14,10 @@ function AppNav() {
       <Header />
       <Banner />
       <Switch>
-        <Route exact path="/">
+        <Route basename="/calendar" exact path="/">
           <MainPage />
         </Route>
-        <Route exact path="/resume">
+        <Route basename="/calendar" exact path="/resume">
           <Resume />
         </Route>
       </Switch>
