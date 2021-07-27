@@ -14,10 +14,10 @@ function AppNav() {
       <Header />
       <Banner />
       <Switch>
-        <Route basename="/calendar" exact path="/">
+        <Route basename={process.env.PUBLIC_URL} exact path="/">
           <MainPage />
         </Route>
-        <Route basename="/calendar" exact path="/resume">
+        <Route basename={process.env.PUBLIC_URL} exact path="/resume">
           <Resume />
         </Route>
       </Switch>
