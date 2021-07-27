@@ -6,7 +6,7 @@ The purpose of this project was to take my pre-existing portfolio page and conve
 
 Welcome to my portfolio and I hope that you enjoy.
 
-Link to the finished webpage hosted on Git: https://wron1.github.io/finalPortfolio/
+Link to the finished webpage hosted on Git: https://wron1.github.io/react-portfolio/
 
 
 ## Usage
