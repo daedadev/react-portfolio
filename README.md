@@ -2,9 +2,9 @@
 
 ## Description
 
-The purpose of this project was to create my own personal portfolio page. As the only things I have created in my time programming are video games I have linked those in my website and set up a dummy resume as I wasnt given an example of how the resume should look however due to the header having one I thought I should include it just to be sure.
+The purpose of this project was to take my pre-existing portfolio page and convert it into react. I have included a decent amount of my more impressive creations and updated a bit of the layout.
 
-I was to ensure the links worked and that the html and css were properly commented along with the webpage sizing to different screens. I had a really fun time working on this project and I hope you enjoy it.
+Welcome to my portfolio and I hope that you enjoy.
 
 Link to the finished webpage hosted on Git: https://wron1.github.io/finalPortfolio/
 
@@ -12,7 +12,7 @@ Link to the finished webpage hosted on Git: https://wron1.github.io/finalPortfol
 ## Usage
 
 Top section of the webpage
-![Screenshot 1](Assets/images/portfolioShot.PNG?raw=true)
+![Screenshot 1](public/images/portfolioShot.PNG?raw=true)
 
 
 ## License
