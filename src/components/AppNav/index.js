@@ -1,16 +1,18 @@
 import React from "react";
 import "./style.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import MainPage from "../../pages/MainPage";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
 import Footer from "../Footer";
 import Resume from "../../pages/Resume";
+import Banner from "../Banner";
 
 function AppNav() {
   return (
     <Wrapper>
       <Header />
+      <Banner />
       <Switch>
         <Route exact path="/">
           <MainPage />

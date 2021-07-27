@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import AboutMe from "../AboutMe";
-import Footer from "../Footer";
 import Project from "../Project";
 
 function LargeContainer() {

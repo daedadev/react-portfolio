@@ -5,12 +5,20 @@ import Wrapper from "../components/Wrapper";
 function Resume() {
   return (
     <Wrapper>
-      <Project
-        directory={"https://github.com/wron1/work-day-scheduler"}
-        title={"Work Day Scheduler"}
-        image={`url('/images/scheduler.PNG')`}
-        classy={"small-work"}
-      />
+      <section id="work" className="left-and-right">
+        <section className="left">
+          <h1>Resume</h1>
+        </section>
+
+        <section className="work-right">
+          <Project
+            directory={"/resume"}
+            title={"This Is Just A PlaceHolder"}
+            image={`url('/images/scheduler.PNG')`}
+            classy={"small-work"}
+          />
+        </section>
+      </section>
     </Wrapper>
   );
 }
