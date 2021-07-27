@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function LargeProject({ directory, title, image }) {
+function Project({ directory, title, image, classy }) {
   return (
-    <article className="large-work">
+    <article className={classy}>
       <div
         style={{ backgroundImage: image }}
         onClick={(event) => (window.location.href = directory)}
@@ -14,4 +14,4 @@ function LargeProject({ directory, title, image }) {
   );
 }
 
-export default LargeProject;
+export default Project;
