@@ -12,22 +12,24 @@ function AboutMe() {
       <article className="right">
         <p>
           My name is Daniel Moore and I am a 24 year old student programmer who
-          is currently learning Javascript and CSS under the direction of Farish
-          Kashefinejad while at the University of Riverside Coding Bootcamp. I
-          have a decent amount of previous experience with coding through a
-          couple years of using Unity to develop video games for mobile devices.
-          The change to web development is a bit new to me, however I am
-          familiar with the languages as I have coded a few google chrome
-          extensions which use the same front end and backend of html and
-          javascript repectively. I have also tried my hand with react and have
-          also used node a bit. I am looking forward to learning more and
-          appreciate you taking the time to read this.
+          specifies in React and Javascript coding. I have studied Javascript
+          and CSS under the direction of Farish Kashefinejad while at the
+          University of Riverside Coding Bootcamp. I have a decent amount of
+          previous experience with coding through a couple years of using Unity
+          to develop video games for mobile devices. I also have experience
+          working with google chrome extensions and have made a few self
+          projects using electron.
         </p>
 
         <p>
           Since starting the coding bootcamp at UCR I have gained much knowledge
           involving the use of MySQL, mongoDB, local web storage and utilizing
-          and creating API's. Below are some projects displaying that knowledge.
+          and creating API's. I have learned so much during the course of the
+          camp, team work and fast learning being amongst my most polished
+          skills. The larger sized units of the projects below are some
+          displaying that knowledge while the smaller works are some of my
+          personal accomplishments. All link to their respective github pages.
+          Thank you for giving this a read and I hope that you enjoy.
         </p>
       </article>
     </section>
