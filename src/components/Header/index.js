@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div>
         <h2>Daniel Moore</h2>
-        <img src="./assets/profilepic.PNG" alt="My beautiful face" />
+        <img src="/images/profilepic.PNG" alt="My beautiful face" />
       </div>
 
       <nav>
