@@ -14,10 +14,10 @@ function AppNav() {
       <Header />
       <Banner />
       <Switch>
-        <Route basename={process.env.PUBLIC_URL} exact path="/">
+        <Route basename="react-portfolio" exact path="/">
           <MainPage />
         </Route>
-        <Route basename={process.env.PUBLIC_URL} exact path="/resume">
+        <Route basename="react-portfolio" exact path="/resume">
           <Resume />
         </Route>
       </Switch>
