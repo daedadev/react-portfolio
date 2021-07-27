@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function MiddleContent() {
@@ -13,18 +12,21 @@ function MiddleContent() {
         <article className="large-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Dealership</p>
         </article>
 
         <article class="small-work">
-          <div style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}>
-            <Link to="https://github.com/wron1/tech-blog" />
-          </div>
+          <div
+            style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Pokemon Card Tracker</p>
         </article>
@@ -32,10 +34,10 @@ function MiddleContent() {
         <article className="small-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Tech Blog</p>
         </article>
@@ -43,10 +45,10 @@ function MiddleContent() {
         <article className="small-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Team Profile Generator</p>
         </article>
@@ -54,10 +56,10 @@ function MiddleContent() {
         <article className="small-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Weather Dashboard</p>
         </article>
@@ -65,10 +67,10 @@ function MiddleContent() {
         <article className="small-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Code Quiz</p>
         </article>
@@ -76,10 +78,10 @@ function MiddleContent() {
         <article className="small-work">
           <div
             style={{ backgroundImage: `url('/Assets/images/weather.PNG')` }}
-            onclick={"location.href='https://github.com/wron1/tech-blog';"}
-          >
-            &nbsp;
-          </div>
+            onClick={(event) =>
+              (window.location.href = "https://github.com/wron1/tech-blog")
+            }
+          ></div>
 
           <p>Work Day Scheduler</p>
         </article>
