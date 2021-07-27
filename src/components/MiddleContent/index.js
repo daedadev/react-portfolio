@@ -17,17 +17,17 @@ function MiddleContent() {
           image={`url('/images/counsel.PNG')`}
         />
 
-        <article className="large-work">
-          <div
-            style={{ backgroundImage: `url('/images/dealership.PNG')` }}
-            onClick={(event) =>
-              (window.location.href =
-                "https://github.com/JustinBrubaker7/Dealership")
-            }
-          ></div>
+        <LargeProject
+          directory={"https://github.com/JustinBrubaker7/Dealership"}
+          title={"Dealership"}
+          image={`url('/images/dealership.PNG')`}
+        />
 
-          <p>Dealership</p>
-        </article>
+        <SmallProject
+          directory={"https://github.com/JustinBrubaker7/Dealership"}
+          title={"Dealership"}
+          image={`url('/images/dealership.PNG')`}
+        />
 
         <article class="small-work">
           <div
