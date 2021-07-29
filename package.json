@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://wron1.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
@@ -9,7 +10,6 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.0.1",
     "gh-pages": "^3.2.3",
-    "homepage": "https://wron1.github.io/react-portfolio",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hanger": "^2.4.2",
