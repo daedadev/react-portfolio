@@ -14,10 +14,10 @@ function AppNav() {
       <Header />
       <Banner />
       <Switch>
-        <Route basename="react-portfolio" exact path="/">
+        <Route exact path="/">
           <MainPage />
         </Route>
-        <Route basename="react-portfolio" exact path="/resume">
+        <Route exact path="/resume">
           <Resume />
         </Route>
       </Switch>
