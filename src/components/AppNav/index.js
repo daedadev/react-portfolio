@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MainPage from "../../pages/MainPage";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
@@ -10,19 +10,21 @@ import Banner from "../Banner";
 
 function AppNav() {
   return (
-    <Wrapper>
-      <Header />
-      <Banner />
-      <Switch>
-        <Route exact path="/">
-          <MainPage />
-        </Route>
-        <Route exact path="/resume">
-          <Resume />
-        </Route>
-      </Switch>
-      <Footer />
-    </Wrapper>
+    <Router>
+      <Wrapper>
+        <Header />
+        <Banner />
+        <Switch>
+          <Route exact path="/react-portfolio">
+            <MainPage />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
+        <Footer />
+      </Wrapper>
+    </Router>
   );
 }
 

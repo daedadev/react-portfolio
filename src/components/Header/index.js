@@ -6,7 +6,10 @@ function Header() {
     <header>
       <div>
         <h2>Daniel Moore</h2>
-        <img src="/images/profilepic.PNG" alt="My beautiful face" />
+        <img
+          src={`${process.env.PUBLIC_URL + "/images/profilepic.PNG"}`}
+          alt="My beautiful face"
+        />
       </div>
 
       <nav>

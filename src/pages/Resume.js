@@ -14,7 +14,7 @@ function Resume() {
           <Project
             directory={"/resume"}
             title={"This Is Just A PlaceHolder"}
-            image={`url('/images/scheduler.PNG')`}
+            image={`url(${process.env.PUBLIC_URL + "/images/scheduler.PNG"})`}
             classy={"small-work"}
           />
         </section>
