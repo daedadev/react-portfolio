@@ -4,7 +4,7 @@ import AppNav from "./components/AppNav";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <AppNav />
     </Router>
   );

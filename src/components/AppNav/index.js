@@ -10,12 +10,12 @@ import Banner from "../Banner";
 
 function AppNav() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Wrapper>
         <Header />
         <Banner />
         <Switch>
-          <Route exact path="/react-portfolio">
+          <Route exact path="/">
             <MainPage />
           </Route>
           <Route exact path="/resume">
