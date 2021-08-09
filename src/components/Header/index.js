@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Header() {
@@ -24,7 +25,7 @@ function Header() {
             <a href="#footer">Contact Me</a>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <Link to={"/resume"}>Resume</Link>
           </li>
         </ul>
       </nav>
