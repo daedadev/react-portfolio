@@ -1,16 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
-function Project({ directory, title, image, classy }) {
+function Project({ liveApp, githubApp, title, image, classy }) {
   return (
-    <article className={classy}>
-      <div
-        style={{ backgroundImage: image }}
-        onClick={(event) => (window.location.href = directory)}
-      ></div>
+    <Link
+      className={classy}
+      to={{
+        pathname: "/project",
+        state: {
+          liveApp: liveApp,
+          githubApp: githubApp,
+          title: title,
+          image: image,
+        },
+      }}
+    >
+      <div style={{ backgroundImage: image }}></div>
 
       <p>{title}</p>
-    </article>
+    </Link>
   );
 }
 
