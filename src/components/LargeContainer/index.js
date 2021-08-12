@@ -25,7 +25,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://JustinBrubaker7.github.io/Dealership/"}
             githubApp={"https://github.com/JustinBrubaker7/Dealership"}
             title={"Dealership"}
             image={`url(${process.env.PUBLIC_URL + "/images/dealership.PNG"})`}
@@ -36,7 +36,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://wron1.github.io/pokemon-tracker/"}
             githubApp={"https://github.com/wron1/pokemon-tracker"}
             title={"Pokemon Card Tracker"}
             image={`url(${process.env.PUBLIC_URL + "/images/pokemon.PNG"})`}
@@ -47,7 +47,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://desolate-spire-45416.herokuapp.com/"}
             githubApp={"https://github.com/wron1/tech-blog"}
             title={"Tech Blog"}
             image={`url(${process.env.PUBLIC_URL + "/images/techblog.PNG"})`}
@@ -58,7 +58,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://wron1.github.io/team-profile-generator/"}
             githubApp={"https://github.com/wron1/team-profile-generator"}
             title={"Team Profile Generator"}
             image={`url(${process.env.PUBLIC_URL + "/images/teamprofile.PNG"})`}
@@ -69,7 +69,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://wron1.github.io/weather-dashboard/"}
             githubApp={"https://github.com/wron1/weather-dashboard"}
             title={"Weather Dashboard"}
             image={`url(${process.env.PUBLIC_URL + "/images/weather.PNG"})`}
@@ -80,7 +80,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/weather-dashboard/"}
+            liveApp={"https://wron1.github.io/code-quiz/"}
             githubApp={"https://github.com/wron1/code-quiz"}
             title={"Code Quiz"}
             image={`url(${process.env.PUBLIC_URL + "/images/quiz.PNG"})`}
@@ -91,7 +91,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={"https://wron1.github.io/work-day-scheduler/"}
             githubApp={"https://github.com/wron1/work-day-scheduler"}
             title={"Work Day Scheduler"}
             image={`url(${process.env.PUBLIC_URL + "/images/scheduler.PNG"})`}
