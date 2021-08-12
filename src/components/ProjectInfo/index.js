@@ -1,21 +1,23 @@
 import React from "react";
-import Wrapper from "../Wrapper";
 import "./style.css";
 
-function ProjectInfo({ liveApp, githubApp, title, image, classy }) {
+function ProjectInfo({ liveApp, githubApp, info, image, classy }) {
   return (
-    <Wrapper>
-      <a className={classy} href={liveApp}>
+    <section className="work-right">
+      <h2>{info}</h2>
+      <h3>Click below to visit the live application</h3>
+      <a className="large-work" href={liveApp}>
         <div style={{ backgroundImage: image }}></div>
 
         <p>Live Application</p>
       </a>
-      <a className={classy} href={githubApp}>
+      <h3>Click below to visit the github repository</h3>
+      <a className="large-work" href={githubApp}>
         <div style={{ backgroundImage: image }}></div>
 
         <p>Github Repository</p>
       </a>
-    </Wrapper>
+    </section>
   );
 }
 

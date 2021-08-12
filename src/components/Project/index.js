@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function Project({ liveApp, githubApp, title, image, classy }) {
+function Project({ liveApp, githubApp, title, image, classy, info }) {
   return (
     <Link
       className={classy}
@@ -13,6 +13,7 @@ function Project({ liveApp, githubApp, title, image, classy }) {
           githubApp: githubApp,
           title: title,
           image: image,
+          info: info,
         },
       }}
     >
