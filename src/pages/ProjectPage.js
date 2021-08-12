@@ -1,5 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router";
+import ProjectInfo from "../components/ProjectInfo";
 import Wrapper from "../components/Wrapper";
 
 function ProjectPage() {
@@ -14,7 +15,12 @@ function ProjectPage() {
         </section>
 
         <section className="work-right">
-          <h1>Project Info</h1>
+          <ProjectInfo
+            liveApp={liveApp}
+            githubApp={githubApp}
+            title={title}
+            image={image}
+          />
         </section>
       </section>
     </Wrapper>
