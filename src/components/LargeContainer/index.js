@@ -14,7 +14,9 @@ function LargeContainer() {
 
         <section className="work-right">
           <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
+            liveApp={
+              "https://60f646d401fce500077b77c3--counsel-central.netlify.app/"
+            }
             githubApp={"https://github.com/JustinBrubaker7/counsel-central"}
             title={"Counsel Central"}
             image={`url(${process.env.PUBLIC_URL + "/images/counsel.PNG"})`}

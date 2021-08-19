@@ -1,7 +1,7 @@
 /* Holds About Me, Work, and Contact Me Sections */
 .large-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Specifics of the Right Side of the work section */
