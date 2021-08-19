@@ -21,7 +21,7 @@ function Footer() {
               <a href="https://github.com/wron1">Github</a>
             </li>
             <li>
-              <a href="https://www.instagram.com/wron1.kicks/">Instagram</a>
+              <a href="https://linkedin.com/in/danielmoore201">LinkedIn</a>
             </li>
           </ul>
         </nav>
