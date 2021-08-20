@@ -1,33 +1,50 @@
 /* Change the color of the links when clicked */
-a:visited {
-  color: var(--red);
+header a:hover,
+header a:visited,
+header a:link,
+header a:active {
+  color: var(--AltTextColor);
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  color: var(--TextColor);
+  text-decoration: none;
 }
 
 header {
   display: flex;
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: var(--grey);
-  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--MainBackground);
   justify-content: flex-end;
-  color: var(--red);
+  color: var(--TextColor);
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 /* Profile Picture along with name */
 header div {
   display: flex;
   align-items: center;
+  margin-left: 1%;
+  color: var(--TextColor);
 }
 
 header div h2 {
   font-size: 30px;
+  color: var(--AltTextColor);
 }
 
 header div img {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   border-radius: 100px;
   margin-left: 20px;
 }
@@ -35,12 +52,14 @@ header div img {
 header h1 {
   display: flex;
   font-size: 48px;
+  text-decoration: none;
 }
 
 header nav {
-  align-items: flex-start;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  padding-right: 1%;
 }
 
 header nav ul {

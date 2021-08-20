@@ -4,16 +4,17 @@
 }
 
 :root {
-  --TextColor: rgb(0, 0, 0);
-  --HeaderBackground: rgb(43, 177, 255);
+  --TextColor: rgb(235, 235, 235);
+  --HeaderBackground: rgb(235, 235, 235);
+  --AltTextColor: rgb(0, 0, 0);
   --MainBackground: rgb(235, 235, 235);
-  --MainAccent: rgb(136, 136, 136);
+  --MainAccent: rgb(49, 49, 49);
 }
 
 /* Styling the About Me paragraphs */
 #about-me article p {
   font-size: 300;
-  color: var(--TextColor);
+  color: var(--AltTextColor);
 }
 
 /* General Right Items */
@@ -28,10 +29,12 @@
 
 body {
   background-color: var(--HeaderBackground);
+  font-family: Helvetica, sans-serif;
 }
 
 h1 {
-  color: var(--HeaderBackground);
+  color: var(--AltTextColor);
+  font-family: Helvetica, sans-serif;
 }
 
 /* Holds About Me, Work, and Contact Me Sections */
