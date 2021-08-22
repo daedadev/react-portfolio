@@ -7,14 +7,6 @@ header a:active {
   text-decoration: none;
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
-  color: var(--TextColor);
-  text-decoration: none;
-}
-
 header {
   display: flex;
   padding: 20px;

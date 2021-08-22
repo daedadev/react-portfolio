@@ -63,6 +63,10 @@ h1 {
   background-color: var(--MainAccent);
 }
 
+.work-right a {
+  color: var(--AltTextColor);
+}
+
 .work-right .large-work div {
   width: 100%;
   background-repeat: no-repeat;
