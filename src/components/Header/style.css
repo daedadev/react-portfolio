@@ -1,8 +1,16 @@
 /* Change the color of the links when clicked */
-header a:hover,
-header a:visited,
-header a:link,
-header a:active {
+#default a:hover,
+#default a:visited,
+#default a:link,
+#default a:active {
+  color: var(--TextColor);
+  text-decoration: none;
+}
+
+#modified a:hover,
+#modified a:visited,
+#modified a:link,
+#modified a:active {
   color: var(--AltTextColor);
   text-decoration: none;
 }
@@ -31,7 +39,7 @@ header div {
 
 header div h2 {
   font-size: 30px;
-  color: var(--AltTextColor);
+  color: var(--TextColor);
 }
 
 header div img {

@@ -4,9 +4,9 @@
 }
 
 :root {
-  --TextColor: rgb(235, 235, 235);
+  --AltTextColor: rgb(235, 235, 235);
   --HeaderBackground: rgb(235, 235, 235);
-  --AltTextColor: rgb(0, 0, 0);
+  --TextColor: rgb(0, 0, 0);
   --MainBackground: rgb(235, 235, 235);
   --MainAccent: rgb(49, 49, 49);
 }
@@ -14,7 +14,7 @@
 /* Styling the About Me paragraphs */
 #about-me article p {
   font-size: 300;
-  color: var(--AltTextColor);
+  color: var(--TextColor);
 }
 
 /* General Right Items */
@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  color: var(--AltTextColor);
+  color: var(--TextColor);
   font-family: Helvetica, sans-serif;
 }
 
