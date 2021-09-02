@@ -27,7 +27,7 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://JustinBrubaker7.github.io/Dealership/"}
+            liveApp={"https://rocky-river-62832.herokuapp.com/dealer"}
             githubApp={"https://github.com/JustinBrubaker7/Dealership"}
             title={"Dealership"}
             image={`url(${process.env.PUBLIC_URL + "/images/dealership.PNG"})`}

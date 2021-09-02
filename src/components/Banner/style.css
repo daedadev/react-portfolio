@@ -17,3 +17,45 @@ img {
 .banner h1 {
   color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 1800px) {
+  h1 {
+    color: purple;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    color: green;
+  }
+
+  .banner {
+    padding-top: 160px;
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: red;
+  }
+
+  .banner {
+    padding-top: 0px;
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 115%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    color: blue;
+  }
+}

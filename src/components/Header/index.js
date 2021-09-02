@@ -6,6 +6,10 @@ export default class Header extends React.Component {
   state = {
     theClassName: "default",
   };
+  desktop = 1200;
+  laptop = 992;
+  tablet = 768;
+  phone = 480;
 
   listenScrollEvent = (e) => {
     if (window.scrollY > 100) {
