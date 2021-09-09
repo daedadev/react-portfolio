@@ -23,13 +23,6 @@ footer nav ul li {
   margin-left: 25px;
 }
 
-/* Styling for the larger containers holding the 3 left and rights */
-.left-and-right {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--lightergrey);
-}
-
 /* General Left Items */
 .left {
   flex-direction: column;

@@ -7,7 +7,7 @@ header a:active {
   text-decoration: none;
 }
 
-header {
+header section {
   display: flex;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +15,11 @@ header {
   justify-content: flex-end;
   color: var(--TextColor);
   justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   width: 100%;
   top: 0;
@@ -25,8 +30,14 @@ header {
 header div {
   display: flex;
   align-items: center;
-  margin-left: 1%;
   color: var(--TextColor);
+}
+
+.header-bottom {
+  background-color: rgb(49, 49, 49);
+  height: 10px;
+  width: 100%;
+  padding-left: 0;
 }
 
 header div h2 {
@@ -38,6 +49,7 @@ header div img {
   height: 90px;
   width: 90px;
   border-radius: 100px;
+  margin-right: 20px;
   margin-left: 20px;
 }
 
@@ -78,7 +90,7 @@ header nav ul li {
   h1 {
     color: green;
   }
-  header {
+  header section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -97,14 +109,37 @@ header nav ul li {
     color: red;
   }
 
-  header {
+  header section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  header {
     position: relative;
     width: 100%;
     top: 1;
     z-index: 0;
+  }
+
+  header div {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  header div h2 {
+    font-size: 40px;
+    color: var(--TextColor);
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  header div img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
 
   header nav {
@@ -128,8 +163,10 @@ header nav ul li {
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 10px;
+    border-style: solid;
     margin-top: 1%;
-    background-color: var(--MainAccent);
+    background-color: var(--MainBackground);
+    border-color: var(--MainAccent);
     width: 90%;
   }
 
@@ -137,7 +174,7 @@ header nav ul li {
   header a:visited,
   header a:link,
   header a:active {
-    color: var(--AltTextColor);
+    color: var(--TextColor);
     text-decoration: none;
   }
 }
