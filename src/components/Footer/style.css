@@ -15,35 +15,12 @@ footer nav ul {
 }
 
 footer a {
-  color: var(--AltTextColor);
+  color: black;
 }
 
 footer nav ul li {
   display: flex;
   margin-left: 25px;
-}
-
-/* General Left Items */
-.left {
-  flex-direction: column;
-  align-items: flex-end;
-  display: flex;
-  width: 10%;
-  padding: 1%;
-}
-
-.left h1 {
-  font-size: 36px;
-}
-
-/* General Right Items */
-.right {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 20%;
-  height: 100%;
-  padding: 1%;
 }
 
 @media screen and (max-width: 1800px) {
@@ -64,6 +41,18 @@ footer nav ul li {
 @media screen and (max-width: 768px) {
   h1 {
     color: red;
+  }
+
+  footer nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer nav ul li {
+    padding-top: 2%;
+    padding-bottom: 4%;
   }
 }
 

@@ -34,3 +34,45 @@ p {
   flex-direction: row;
   background-color: var(--lightergrey);
 }
+
+@media screen and (max-width: 1800px) {
+  h1 {
+    color: purple;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    color: green;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: red;
+  }
+
+  #about-me .right p {
+    width: 97%;
+    padding-left: 1%;
+  }
+
+  .right {
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    color: blue;
+  }
+}

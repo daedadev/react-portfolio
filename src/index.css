@@ -134,6 +134,29 @@ h1 {
   h1 {
     color: red;
   }
+  .left-and-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    flex-direction: row;
+  }
+  #about-me .left h1 {
+    flex-direction: row;
+    margin-right: 10%;
+  }
+  .work-right {
+    flex-direction: column;
+    margin: 5% 5% 5% 5%;
+  }
+  .work-right .small-work {
+    width: 97%;
+    height: 120px;
+  }
+  .work-right .large-work {
+    width: 97%;
+  }
 }
 
 @media screen and (max-width: 480px) {
