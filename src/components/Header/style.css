@@ -7,6 +7,19 @@ header a:active {
   text-decoration: none;
 }
 
+.menu-button {
+  display: none;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 20px;
+}
+
+.header-nav {
+  display: flex;
+}
+
 header section {
   display: flex;
   padding: 20px;
@@ -15,6 +28,14 @@ header section {
   justify-content: flex-end;
   color: var(--TextColor);
   justify-content: space-between;
+}
+
+.default {
+  display: none;
+}
+
+.modified {
+  display: flex;
 }
 
 header {
@@ -84,6 +105,13 @@ header nav ul li {
   h1 {
     color: purple;
   }
+  .default {
+    display: none;
+  }
+
+  .modified {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -102,11 +130,31 @@ header nav ul li {
     font-size: 20px;
     padding-top: 1%;
   }
+
+  .default {
+    display: none;
+  }
+
+  .modified {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
   h1 {
     color: red;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .default {
+    display: none;
+  }
+
+  .modified {
+    display: flex;
   }
 
   header section {
@@ -143,6 +191,7 @@ header nav ul li {
   }
 
   header nav {
+    display: hidden;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -176,6 +225,10 @@ header nav ul li {
   header a:active {
     color: var(--TextColor);
     text-decoration: none;
+  }
+
+  .header-nav {
+    display: none;
   }
 }
 
