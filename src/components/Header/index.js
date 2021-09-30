@@ -29,8 +29,8 @@ export default class Header extends React.Component {
             <h2>Daniel Moore</h2>
           </div>
 
-          <button className="menu-button">
-            <h3 onClick={this.activateDirectory}>Menu</h3>
+          <button className="menu-button" onClick={this.activateDirectory}>
+            <h3>Menu</h3>
           </button>
 
           <nav className="header-nav">

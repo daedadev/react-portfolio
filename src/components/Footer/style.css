@@ -27,9 +27,6 @@ footer nav ul li {
   h1 {
     color: purple;
   }
-  .left {
-    width: 20%;
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -41,6 +38,11 @@ footer nav ul li {
 @media screen and (max-width: 768px) {
   h1 {
     color: red;
+  }
+
+  .left {
+    align-items: center;
+    justify-content: center;
   }
 
   footer nav ul {
@@ -57,8 +59,7 @@ footer nav ul li {
   }
 
   footer h1 {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-right: 2%;
   }
 }
 
