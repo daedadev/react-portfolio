@@ -38,7 +38,7 @@ header section {
   display: flex;
   z-index: 1;
   position: absolute;
-  margin-top: 615px;
+  margin-top: 95%;
   background-color: rgb(49, 49, 49);
   padding-bottom: 2%;
 }
