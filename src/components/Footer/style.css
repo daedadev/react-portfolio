@@ -14,6 +14,10 @@ footer nav ul {
   padding-top: 1%;
 }
 
+.right {
+  width: 100%;
+}
+
 footer a {
   color: black;
 }
@@ -57,9 +61,8 @@ footer nav ul li {
     padding-bottom: 4%;
     margin-left: 0%;
   }
-
-  footer h1 {
-    margin-right: 2%;
+  h1 {
+    padding: 1%;
   }
 }
 

@@ -38,7 +38,7 @@ header section {
   display: flex;
   z-index: 1;
   position: absolute;
-  margin-top: 95%;
+  margin-top: 600px;
   background-color: rgb(49, 49, 49);
   padding-bottom: 2%;
 }
@@ -206,7 +206,7 @@ header nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     padding-top: 1%;
-    width: 90%;
+    width: 80%;
     border-radius: 10px;
   }
 
@@ -239,6 +239,12 @@ header nav ul li {
 
   .header-nav {
     display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .modified {
+    margin-top: 555px;
   }
 }
 
