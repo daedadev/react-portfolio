@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Resume() {
+function ResumeFile() {
   return (
     <div>
       <h1>Daniel Moore</h1>
@@ -98,4 +98,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ResumeFile;

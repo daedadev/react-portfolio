@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../components/Project";
 import Wrapper from "../components/Wrapper";
+import ResumeFile from "./Resume";
 
 function Resume() {
   return (
@@ -11,12 +12,7 @@ function Resume() {
         </section>
 
         <section className="work-right">
-          <Project
-            directory={"/resume"}
-            title={"This Is Just A PlaceHolder"}
-            image={`url(${process.env.PUBLIC_URL + "/images/scheduler.PNG"})`}
-            classy={"small-work"}
-          />
+          <ResumeFile />
         </section>
       </section>
     </Wrapper>
