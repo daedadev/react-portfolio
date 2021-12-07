@@ -28,8 +28,15 @@ function AboutMe() {
           camp, team work and fast learning being amongst my most polished
           skills. The larger sized units of the projects below are some
           displaying that knowledge while the smaller works are some of my
-          personal accomplishments. All link to their respective github pages.
-          Thank you for giving this a read and I hope that you enjoy.
+          personal accomplishments.
+        </p>
+
+        <p>
+          After completing the bootcamp amongst the top of my class I have come
+          to know quickly that I have a lot to learn and am honing my skills day
+          After day. My team work skills, quick learning and highly flexible
+          personality make me an adaptable worker and an amazing asset to any
+          team. Thank you for giving this a read and I hope that you enjoy.
         </p>
       </article>
     </section>
