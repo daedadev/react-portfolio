@@ -118,19 +118,16 @@ h1 {
 
 @media screen and (max-width: 1800px) {
   h1 {
-    color: purple;
   }
 }
 
 @media screen and (max-width: 992px) {
   h1 {
-    color: green;
   }
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    color: red;
   }
   .left-and-right {
     display: flex;
@@ -155,6 +152,5 @@ h1 {
 
 @media screen and (max-width: 480px) {
   h1 {
-    color: blue;
   }
 }
