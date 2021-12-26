@@ -23,7 +23,7 @@ export default class Header extends React.Component {
         <section className="header-top">
           <div>
             <img
-              src={`${process.env.PUBLIC_URL + "/images/profilepic.PNG"}`}
+              src={`${process.env.PUBLIC_URL + "images/ProfilePicture.jpeg"}`}
               alt="My beautiful face"
             />
             <h2>Daniel Moore</h2>

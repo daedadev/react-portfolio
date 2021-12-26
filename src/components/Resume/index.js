@@ -27,7 +27,7 @@ function ResumeFile() {
       <p>Related coursework: Working with HTML, CSS, MySQL, REACT </p>
       <p>UCR Extension: Coding Bootcamp </p>
       <br />
-      <h1>Skills & Abilities </h1>
+      <h1>Skills And Abilities </h1>
       <br />
       <h1>COMMUNICATION </h1>
       <p>

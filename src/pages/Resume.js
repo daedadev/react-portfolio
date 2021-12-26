@@ -1,5 +1,4 @@
 import React from "react";
-import Project from "../components/Project";
 import Wrapper from "../components/Wrapper";
 import ResumeFile from "./Resume";
 
