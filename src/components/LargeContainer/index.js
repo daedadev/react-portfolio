@@ -50,7 +50,7 @@ function LargeContainer() {
             image={`url(${process.env.PUBLIC_URL + "/images/pokemon.PNG"})`}
             classy={"small-work"}
             info={
-              "This project was designed to help users search the pokemon card database using specific search criteria based on the pokemons generation, type, and name. After searchig, users will be able to compare te prices of different cards across several marketplaces, and save their preferred cards to return to later. This project was challenging, but interesting and gave us an opportunity to better understand APIs and their deployment, as well as hone our skills in HTML and CSS."
+              "This project was designed to help users search the pokemon card database using specific search criteria based on the pokemons generation, type, and name. After searching, users will be able to compare te prices of different cards across several marketplaces and save their preferred cards to return to later. This project was challenging, but interesting and gave us an opportunity to better understand APIs and their deployment, as well as hone our skills in HTML and CSS."
             }
             challenges={
               "This was my first time working with API's on such a large scale and handling the huge amounts of data that come with pokemon cards was a bit overwheling. Also I was the sole backend developer on this project."
