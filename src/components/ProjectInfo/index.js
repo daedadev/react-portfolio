@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../Modal";
 import "./style.css";
 
 function ProjectInfo({
@@ -10,7 +11,20 @@ function ProjectInfo({
   image,
   title,
   dependancies,
+  video,
 }) {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  function showModal() {
+    setModalOpen(true);
+    console.log(modalOpen);
+  }
+
+  function hideModal() {
+    setModalOpen(false);
+    console.log(modalOpen);
+  }
+
   return (
     <section className="large-cell">
       <section id="title-cell">
@@ -50,7 +64,11 @@ function ProjectInfo({
                 <button className="link-buttons" id="liveApp" href={liveApp}>
                   LiveApp
                 </button>
-                <button className="link-buttons" id="videoDemo" href={liveApp}>
+                <button
+                  className="link-buttons"
+                  id="videoDemo"
+                  onClick={showModal}
+                >
                   Video
                 </button>
               </article>
@@ -58,6 +76,7 @@ function ProjectInfo({
           </article>
         </article>
       </section>
+      <Modal video={video} closeModal={hideModal} />
     </section>
   );
 }

@@ -12,6 +12,7 @@ function Project({
   challenges,
   triumphs,
   dependancies,
+  video,
 }) {
   return (
     <Link
@@ -27,6 +28,7 @@ function Project({
           challenges: challenges,
           triumphs: triumphs,
           dependancies: dependancies,
+          video: video,
         },
       }}
     >

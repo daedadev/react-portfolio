@@ -13,6 +13,7 @@ function ProjectPage() {
     challenges,
     triumphs,
     dependancies,
+    video,
   } = location.state;
 
   return (
@@ -25,6 +26,7 @@ function ProjectPage() {
       challenges={challenges}
       triumphs={triumphs}
       dependancies={dependancies}
+      video={video}
     />
   );
 }
