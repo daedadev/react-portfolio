@@ -2,7 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function Project({ liveApp, githubApp, title, image, classy, info }) {
+function Project({
+  liveApp,
+  githubApp,
+  title,
+  image,
+  classy,
+  info,
+  challenges,
+  triumphs,
+  dependancies,
+}) {
   return (
     <Link
       className={classy}
@@ -14,6 +24,9 @@ function Project({ liveApp, githubApp, title, image, classy, info }) {
           title: title,
           image: image,
           info: info,
+          challenges: challenges,
+          triumphs: triumphs,
+          dependancies: dependancies,
         },
       }}
     >

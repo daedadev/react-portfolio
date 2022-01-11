@@ -1,0 +1,52 @@
+.large-cell {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#image-cell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+  margin: 40px 20px 20px 20px;
+}
+
+#right-cell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  margin: 40px 20px 20px 20px;
+}
+
+#title-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+#info-cell {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-cell {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+#inner-right-cell {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#link-cell {
+  display: flex;
+  flex-direction: row;
+}

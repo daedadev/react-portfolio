@@ -36,12 +36,12 @@ export default class Header extends React.Component {
           <nav className="header-nav">
             <ul>
               <li>
-                <a style={{ color: this.state.textColor }} href="#about-me">
+                <a style={{ color: this.state.textColor }} href="/#about-me">
                   About Me
                 </a>
               </li>
               <li>
-                <a style={{ color: this.state.textColor }} href="#work">
+                <a style={{ color: this.state.textColor }} href="/#work">
                   Projects
                 </a>
               </li>
@@ -59,12 +59,12 @@ export default class Header extends React.Component {
           <nav className={this.state.theClassName}>
             <ul>
               <li>
-                <a style={{ color: this.state.textColor }} href="#about-me">
+                <a style={{ color: this.state.textColor }} href="/#about-me">
                   About Me
                 </a>
               </li>
               <li>
-                <a style={{ color: this.state.textColor }} href="#work">
+                <a style={{ color: this.state.textColor }} href="/#work">
                   Work
                 </a>
               </li>

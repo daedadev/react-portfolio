@@ -1,20 +1,17 @@
 import React from "react";
-import Wrapper from "../components/Wrapper";
-import ResumeFile from "./Resume";
+import ResumeFile from "../components/Resume/";
 
 function Resume() {
   return (
-    <Wrapper>
-      <section id="work" className="left-and-right">
-        <section className="left">
-          <h1>Resume</h1>
-        </section>
-
-        <section className="work-right">
-          <ResumeFile />
-        </section>
+    <section id="work" className="left-and-right">
+      <section className="left">
+        <h1>Resume</h1>
       </section>
-    </Wrapper>
+
+      <section className="work-right">
+        <ResumeFile />
+      </section>
+    </section>
   );
 }
 
