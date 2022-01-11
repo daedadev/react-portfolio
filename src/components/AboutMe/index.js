@@ -11,7 +11,7 @@ function AboutMe() {
 
       <article className="right">
         <p>
-          My name is Daniel Moore and I am a 24 year old student programmer who
+          My name is Daniel Moore and I am a 24 year old programmer who
           specifies in React and Javascript coding. I have studied Javascript
           and CSS under the direction of Farish Kashefinejad while at the
           University of Riverside Coding Bootcamp. I have a decent amount of
