@@ -39,20 +39,6 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://rocky-river-62832.herokuapp.com/dealer"}
-            githubApp={"https://github.com/JustinBrubaker7/Dealership"}
-            title={"Dealership"}
-            image={`url(${process.env.PUBLIC_URL + "/images/dealership.PNG"})`}
-            classy={"large-work"}
-            info={
-              "This group collaborative project made for a decent challenge tackling a very interesting concept. A dealership webpage with a functioning backend for the dealership owner as well as a functioning frontend for customers which serves that dealer backend. Justin handled the backend dealership portion and Daniel handled the frontend customer portion. The collaborative effort was welcome and very much needed for such a large project. For only having 2 weeks of preparation the execution was more than successful and helped our team grow immensely."
-            }
-            challenges={""}
-            triumphs={""}
-            dependancies={""}
-          />
-
-          <Project
             liveApp={"https://wron1.github.io/pokemon-tracker/"}
             githubApp={"https://github.com/wron1/pokemon-tracker"}
             title={"Pokemon Card Tracker"}
@@ -63,7 +49,7 @@ function LargeContainer() {
             }
             challenges={""}
             triumphs={""}
-            dependancies={""}
+            dependancies={[""]}
           />
 
           <Project
@@ -77,7 +63,7 @@ function LargeContainer() {
             }
             challenges={""}
             triumphs={""}
-            dependancies={""}
+            dependancies={[""]}
           />
 
           <Project
@@ -91,49 +77,21 @@ function LargeContainer() {
             }
             challenges={""}
             triumphs={""}
-            dependancies={""}
+            dependancies={[""]}
           />
 
           <Project
-            liveApp={"https://wron1.github.io/weather-dashboard/"}
-            githubApp={"https://github.com/wron1/weather-dashboard"}
-            title={"Weather Dashboard"}
-            image={`url(${process.env.PUBLIC_URL + "/images/weather.PNG"})`}
+            liveApp={"https://rocky-river-62832.herokuapp.com/dealer"}
+            githubApp={"https://github.com/JustinBrubaker7/Dealership"}
+            title={"Dealership"}
+            image={`url(${process.env.PUBLIC_URL + "/images/dealership.PNG"})`}
             classy={"small-work"}
             info={
-              "The purpose of this project was to create a webpage that pulls from a weather api to display the current weather as well as the current five day forecast for the coming week. The searched cities you enter will be saved locally and displayed underneath the search bar for quick access. This project was a good challenge and I enjoyed the process a lot. Thank you for checking it out and I hope you enjoy."
+              "This group collaborative project made for a decent challenge tackling a very interesting concept. A dealership webpage with a functioning backend for the dealership owner as well as a functioning frontend for customers which serves that dealer backend. Justin handled the backend dealership portion and Daniel handled the frontend customer portion. The collaborative effort was welcome and very much needed for such a large project. For only having 2 weeks of preparation the execution was more than successful and helped our team grow immensely."
             }
             challenges={""}
             triumphs={""}
-            dependancies={""}
-          />
-
-          <Project
-            liveApp={"https://wron1.github.io/code-quiz/"}
-            githubApp={"https://github.com/wron1/code-quiz"}
-            title={"Code Quiz"}
-            image={`url(${process.env.PUBLIC_URL + "/images/quiz.PNG"})`}
-            classy={"small-work"}
-            info={
-              "The purpose of this project was to create a timed quiz along with a highscore functionality. This project was especially tricky, however I must say it was very fun to work on. The functions include multiple questions that cycle through and a timer which has 60 seconds on it. The end conditions are either the time running out or you answering all the questions. The more accurate your answers the more points you get per correct answer. There is also a speed component making it so that you need a balance of speed and accuracy to get the highest score possible. Scores are stored locally and are found in the highscores page located seperately in its own html."
-            }
-            challenges={""}
-            triumphs={""}
-            dependancies={""}
-          />
-
-          <Project
-            liveApp={"https://wron1.github.io/work-day-scheduler/"}
-            githubApp={"https://github.com/wron1/work-day-scheduler"}
-            title={"Work Day Scheduler"}
-            image={`url(${process.env.PUBLIC_URL + "/images/scheduler.PNG"})`}
-            classy={"small-work"}
-            info={
-              "For this project I had to take a some pre-existing html and css and create a daily planner for use during typical business hours. The time block that correlates with the current hour is displayed as red and the future hours are displayed in green while the hours that have already passed are displayed in grey. Each time slot has a save button which allows you to save the text written for that current day. This way when you re-load you can keep your to-dos for another day."
-            }
-            challenges={""}
-            triumphs={""}
-            dependancies={""}
+            dependancies={[""]}
           />
         </section>
       </section>

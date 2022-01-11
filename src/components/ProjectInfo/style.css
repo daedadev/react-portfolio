@@ -1,5 +1,11 @@
 .large-cell {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#main-cell {
+  display: flex;
   flex-direction: row;
   width: 100%;
 }
@@ -10,6 +16,7 @@
   width: 100%;
   height: 800px;
   border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(49, 49, 49);
   margin: 40px 20px 20px 20px;
 }
 
@@ -26,16 +33,19 @@
   flex-direction: column;
   align-items: center;
   font-size: larger;
+  padding-top: 1%;
 }
 
 #info-cell {
   display: flex;
   flex-direction: row;
+  height: 800px;
 }
 
 #about-cell {
   display: flex;
   flex-direction: column;
+  height: 800px;
   width: 50%;
   align-items: center;
 }
@@ -43,10 +53,68 @@
 #inner-right-cell {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 50%;
+}
+
+#dependancy-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dependancy-cell ul {
+  font-size: larger;
+}
+
+#dependancy-cell li {
+  font-size: larger;
+  padding: 20px 0px 0px 10px;
 }
 
 #link-cell {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#link-cell button {
+  width: 20%;
+  height: 40px;
+}
+
+#github {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(255, 193, 78);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#liveApp {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(91, 91, 253);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#videoDemo {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(79, 158, 79);
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
