@@ -64,30 +64,18 @@ function ProjectInfo({
                   })}
                 </ul>
               </article>
-              <article id="link-cell">
-                <button
-                  className="link-buttons"
-                  id="github"
-                  onClick={openGithub}
-                >
-                  Github
-                </button>
-                <button
-                  className="link-buttons"
-                  id="liveApp"
-                  onClick={openLiveApp}
-                >
-                  LiveApp
-                </button>
-                <button
-                  className="link-buttons"
-                  id="videoDemo"
-                  onClick={showModal}
-                >
-                  Video
-                </button>
-              </article>
             </article>
+          </article>
+          <article id="link-cell">
+            <button className="link-buttons" id="github" onClick={openGithub}>
+              Github
+            </button>
+            <button className="link-buttons" id="liveApp" onClick={openLiveApp}>
+              LiveApp
+            </button>
+            <button className="link-buttons" id="videoDemo" onClick={showModal}>
+              Video
+            </button>
           </article>
         </article>
       </section>

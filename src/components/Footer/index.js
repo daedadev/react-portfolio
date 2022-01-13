@@ -15,13 +15,25 @@ function Footer() {
               <p>951-427-8876</p>
             </li>
             <li>
-              <p>wron2@hotmail.com</p>
+              <p>DanielChrisMoore@gmail.com</p>
             </li>
             <li>
-              <a href="https://github.com/wron1">Github</a>
+              <a
+                href="https://github.com/wron1"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Github
+              </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/danielmoore201">LinkedIn</a>
+              <a
+                target="_blank"
+                href="https://linkedin.com/in/danielmoore201"
+                rel="noreferrer noopener"
+              >
+                LinkedIn
+              </a>
             </li>
           </ul>
         </nav>
