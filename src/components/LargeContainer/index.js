@@ -61,7 +61,7 @@ function LargeContainer() {
               "We successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I personally became extremely comfortable with APIs after this project."
             }
             dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
-            video={""}
+            video={"https://youtu.be/cDrZ24a-tKk"}
           />
 
           <Project
@@ -86,27 +86,30 @@ function LargeContainer() {
               "Sequelize",
               "Heroku",
             ]}
+            video={"https://youtu.be/zV4plFiY0eU"}
           />
 
           <Project
-            liveApp={"https://wron1.github.io/team-profile-generator/"}
-            githubApp={"https://github.com/wron1/team-profile-generator"}
-            title={"Team Profile Generator"}
-            image={`url(${process.env.PUBLIC_URL + "/images/teamprofile.PNG"})`}
+            liveApp={
+              "https://drive.google.com/file/d/1P3UFwL1Xowo-_Ounieit_n6NMbY11HPZ/view"
+            }
+            githubApp={"https://github.com/wron1/employee-tracker"}
+            title={"Employee Tracker"}
+            image={`url(${
+              process.env.PUBLIC_URL + "/images/employeetracker.PNG"
+            })`}
             classy={"small-work"}
             info={
-              "For this project I was tasked with creating a console interface using Inquirer to allow the user to create a dynamically generated webpage that would contain the members of their company along with their information relative to their position. I also had to use Jest to run tests on the various functions found in each employee class. I had a lot of fun building this project and I hope you enjoy."
+              "This project was an extremely difficult task in which I had to utilize mysql/sequelize and inquirer along with express and node to create a command line employee tracker application. The biggest challenge had to be getting the table to function properly and even still there are some hiccups with updating it."
             }
             challenges={
-              "Working solely in the command prompt to create a program was a decent hurdle as up to this point I had only worked with basic html and css. Using Jest to test my functions was also something completely new and very handy."
+              "Working solely in the command prompt to create a program was a decent hurdle as up to this point I had only worked with basic html and css. Making the table function correctly and update was also a big challenge."
             }
             triumphs={
-              "Learning Jest was a big step for me and testing is actually quite fun. This project allowed me to get my head out of the webpage and focus more on the technical workings of javascript and how it interacts with a website."
+              "This project allowed me to get my head out of the webpage and focus more on the technical workings of javascript and how it interacts with a website. Working on a pure back-end application helped me strengthen my programming skills and helped me be as comfortable if not more than in the front-end."
             }
-            dependancies={["Javascript", "Jest", "HTML"]}
-            video={
-              "https://drive.google.com/file/d/1Dp_VZjCtIwR69MeMC2skD-cqqpLWJpjh/view"
-            }
+            dependancies={["Javascript", "MySQL", "Sequelize", "HTML"]}
+            video={"https://youtu.be/nwrqRrjI7Pc"}
           />
 
           <Project
@@ -134,7 +137,7 @@ function LargeContainer() {
               "HTML",
               "TailwindCSS",
             ]}
-            video={""}
+            video={"https://youtu.be/C9ObVO5OhEI"}
           />
         </section>
       </section>

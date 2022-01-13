@@ -25,6 +25,13 @@ function ProjectInfo({
     console.log(modalOpen);
   }
 
+  const openLiveApp = () => {
+    window.open(liveApp);
+  };
+  const openGithub = () => {
+    window.open(githubApp);
+  };
+
   return (
     <section className="large-cell">
       <section id="title-cell">
@@ -58,10 +65,18 @@ function ProjectInfo({
                 </ul>
               </article>
               <article id="link-cell">
-                <button className="link-buttons" id="github" href={githubApp}>
+                <button
+                  className="link-buttons"
+                  id="github"
+                  onClick={openGithub}
+                >
                   Github
                 </button>
-                <button className="link-buttons" id="liveApp" href={liveApp}>
+                <button
+                  className="link-buttons"
+                  id="liveApp"
+                  onClick={openLiveApp}
+                >
                   LiveApp
                 </button>
                 <button
@@ -81,7 +96,13 @@ function ProjectInfo({
           <button id="close-player" onClick={hideModal}>
             X
           </button>
-          <ReactPlayer controls url={video} />
+          <ReactPlayer
+            height="100%"
+            width="100%"
+            controls
+            url={video}
+            playing={modalOpen}
+          />
         </div>
       </div>
     </section>

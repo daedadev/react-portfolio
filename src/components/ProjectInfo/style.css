@@ -43,7 +43,7 @@
 #about-cell {
   display: flex;
   flex-direction: column;
-  height: 800px;
+  padding-bottom: 10%;
   width: 50%;
   align-items: center;
 }
@@ -146,7 +146,9 @@
 
 .video-holder {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  height: 60%;
+  width: 60%;
 }
 
 #close-player {
