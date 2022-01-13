@@ -40,7 +40,9 @@ function LargeContainer() {
               "Sessions",
               "TailwindCSS",
             ]}
-            video={""}
+            video={
+              "https://www.youtube.com/watch?v=EhoWj4gEpwU&ab_channel=ComicBookFreedom"
+            }
           />
 
           <Project
@@ -102,7 +104,9 @@ function LargeContainer() {
               "Learning Jest was a big step for me and testing is actually quite fun. This project allowed me to get my head out of the webpage and focus more on the technical workings of javascript and how it interacts with a website."
             }
             dependancies={["Javascript", "Jest", "HTML"]}
-            video={""}
+            video={
+              "https://drive.google.com/file/d/1Dp_VZjCtIwR69MeMC2skD-cqqpLWJpjh/view"
+            }
           />
 
           <Project

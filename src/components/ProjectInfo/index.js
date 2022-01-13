@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Modal from "../Modal";
 import "./style.css";
+import ReactPlayer from "react-player";
 
 function ProjectInfo({
   liveApp,
@@ -76,7 +76,14 @@ function ProjectInfo({
           </article>
         </article>
       </section>
-      <Modal video={video} closeModal={hideModal} />
+      <div className={modalOpen ? "visible" : "hidden"}>
+        <div className="video-holder">
+          <button id="close-player" onClick={hideModal}>
+            X
+          </button>
+          <ReactPlayer controls url={video} />
+        </div>
+      </div>
     </section>
   );
 }
