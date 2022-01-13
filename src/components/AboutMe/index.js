@@ -33,8 +33,8 @@ function AboutMe() {
 
         <p>
           After completing the bootcamp amongst the top of my class I have come
-          to know quickly that I have a lot to learn and am honing my skills day
-          After day. My team work skills, quick learning and highly flexible
+          to know quickly that I have a lot to learn and am developing my skills
+          day after day. My team work skills, quick learning and highly flexible
           personality make me an adaptable worker and an amazing asset to any
           team. Thank you for giving this a read and I hope that you enjoy.
         </p>
