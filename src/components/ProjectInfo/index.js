@@ -55,15 +55,13 @@ function ProjectInfo({
                 {triumphs}
               </p>
             </article>
-            <article id="inner-right-cell">
-              <article id="dependancy-cell">
-                <h2>Frameworks Used</h2>
-                <ul>
-                  {dependancies.map((deps) => {
-                    return <li key={deps}>{deps}</li>;
-                  })}
-                </ul>
-              </article>
+            <article id="dependancy-cell">
+              <h2>Frameworks Used</h2>
+              <ul>
+                {dependancies.map((deps) => {
+                  return <li key={deps}>{deps}</li>;
+                })}
+              </ul>
             </article>
           </article>
           <article id="link-cell">
