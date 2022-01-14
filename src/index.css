@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 :root {
   --AltTextColor: rgb(235, 235, 235);
   --HeaderBackground: rgb(235, 235, 235);
