@@ -30,7 +30,9 @@ export default class Header extends React.Component {
           </div>
 
           <button className="menu-button" onClick={this.activateDirectory}>
-            <h3>Menu</h3>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
           </button>
 
           <nav className="header-nav">

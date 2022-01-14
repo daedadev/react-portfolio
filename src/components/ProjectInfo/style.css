@@ -53,6 +53,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 5%;
 }
 
 #dependancy-cell ul {
@@ -194,6 +195,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
   }
 
   #link-cell {
@@ -231,6 +233,19 @@
   }
   #link-cell {
     padding: 0;
+  }
+  #dependancy-cell ul {
+    list-style-type: none;
+    width: 100%;
+  }
+  #dependancy-cell li {
+    color: aliceblue;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    border-style: solid;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
   }
 }
 

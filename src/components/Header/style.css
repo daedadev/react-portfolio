@@ -31,15 +31,16 @@ header section {
 }
 
 .default {
-  display: none;
+  top: 0;
+  left: 0;
+  width: 0%;
 }
 
 .modified {
   display: flex;
   z-index: 1;
   position: absolute;
-  margin-top: 600px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(49, 49, 49, 0.9);
   padding-bottom: 2%;
 }
 
@@ -49,7 +50,6 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
 }
 
 /* Profile Picture along with name */
@@ -152,18 +152,54 @@ header nav ul li {
 
   .menu-button {
     display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: rgb(49, 49, 49, 0.9);
+    color: aliceblue;
+    border-color: rgb(109, 109, 109);
+    border-style: none;
+    border-radius: 0px 0px 20px 00px;
+  }
+
+  .menu-button div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(240, 248, 255, 0.9);
+    margin: 4px 0;
+    border-radius: 2px;
   }
 
   .default {
-    display: none;
+    top: 0;
+    left: 0;
+    width: 0%;
+    transition: 1s;
   }
 
   .modified {
     display: flex;
+    position: fixed;
+    height: 100%;
+    width: 70%;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
   }
 
   .modified ul {
-    justify-self: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  .modified ul li {
+    margin-top: 10%;
   }
 
   header section {
@@ -176,7 +212,6 @@ header nav ul li {
     position: relative;
     width: 100%;
     top: 1;
-    z-index: 0;
   }
 
   header div {
@@ -207,7 +242,6 @@ header nav ul li {
     font-size: 30px;
     padding-top: 1%;
     width: 80%;
-    border-radius: 10px;
   }
 
   header nav ul {
@@ -222,10 +256,8 @@ header nav ul li {
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 10px;
-    border-style: solid;
+    border-style: none;
     margin-top: 1%;
-    background-color: var(--MainBackground);
-    border-color: var(--MainAccent);
     width: 90%;
   }
 
@@ -233,7 +265,7 @@ header nav ul li {
   header a:visited,
   header a:link,
   header a:active {
-    color: var(--TextColor);
+    color: aliceblue;
     text-decoration: none;
   }
 
@@ -243,9 +275,6 @@ header nav ul li {
 }
 
 @media screen and (max-width: 550px) {
-  .modified {
-    margin-top: 555px;
-  }
 }
 
 @media screen and (max-width: 480px) {
