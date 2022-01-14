@@ -9,7 +9,6 @@ function Banner() {
       <h1>MongoDB</h1>
       <h1>mySQL</h1>
       <h1>React</h1>
-      <h1>PWA</h1>
       <h1>Handlebars</h1>
     </div>
   );
