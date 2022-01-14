@@ -165,6 +165,7 @@ header nav ul li {
     border-color: rgb(109, 109, 109);
     border-style: none;
     border-radius: 0px 0px 20px 00px;
+    outline: none;
   }
 
   .menu-button div {
