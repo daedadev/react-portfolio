@@ -16,33 +16,21 @@ function LargeContainer() {
             liveApp={
               "https://60f646d401fce500077b77c3--counsel-central.netlify.app/"
             }
-            githubApp={"https://github.com/JustinBrubaker7/counsel-central"}
-            title={"Counsel Central"}
-            image={`url(${process.env.PUBLIC_URL + "/images/counsel.PNG"})`}
+            githubApp={"https://github.com/wron1/google-book-search"}
+            title={"Google Book Search"}
+            image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
             classy={"large-work"}
             info={
-              "A simple and easy way for counselors and rehabilitation centers to track, log and better serve there residents. Counsel Central aims to remove the difficulty with MRE software and better serve those in need."
+              "This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books."
             }
             challenges={
-              "Quality, scale, and teamwork were the hardest parts for this project. This being the final project in my bootcamp the task of making software using everything we knew was truly a daunting task."
+              "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
             }
             triumphs={
-              "Finished project with plenty of scalability. Proper front end counselor login and backend Admin login with their own security measures and database management. I personally setup the entire backend for this project, did model managment and relations, and utilized JSON webtokens to properly send data between webpages."
+              "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Making the book component compartmental was a big success for me."
             }
-            dependancies={[
-              "Javascript",
-              "React",
-              "HTML",
-              "Nodemailer",
-              "JSON Webtoken",
-              "Sequelize",
-              "MySQL",
-              "Sessions",
-              "TailwindCSS",
-            ]}
-            video={
-              "https://www.youtube.com/watch?v=EhoWj4gEpwU&ab_channel=ComicBookFreedom"
-            }
+            dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
+            video={""}
           />
 
           <Project
