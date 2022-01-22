@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../ContactForm";
 import "./style.css";
 
 function Footer() {
@@ -9,6 +10,7 @@ function Footer() {
         <h1>Me</h1>
       </article>
       <article className="right">
+        <ContactForm />
         <nav>
           <ul>
             <li>
