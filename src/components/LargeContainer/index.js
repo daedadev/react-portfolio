@@ -13,9 +13,7 @@ function LargeContainer() {
 
         <section className="work-right">
           <Project
-            liveApp={
-              "https://60f646d401fce500077b77c3--counsel-central.netlify.app/"
-            }
+            liveApp={"https://reactappbooksearch.herokuapp.com/"}
             githubApp={"https://github.com/wron1/google-book-search"}
             title={"Google Book Search"}
             image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
@@ -27,7 +25,7 @@ function LargeContainer() {
               "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
             }
             triumphs={
-              "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Making the book component compartmental was a big success for me."
+              "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
             video={""}
