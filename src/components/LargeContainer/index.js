@@ -28,7 +28,7 @@ function LargeContainer() {
               "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
-            video={""}
+            video={"https://youtu.be/EY7OpUQH-wI"}
           />
 
           <Project

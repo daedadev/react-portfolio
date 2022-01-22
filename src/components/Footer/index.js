@@ -4,14 +4,17 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer id="footer" className="left-and-right">
-      <article className="left">
-        <h1>Contact</h1>
-        <h1>Me</h1>
-      </article>
-      <article className="right">
-        <ContactForm />
-        <nav>
+    <footer>
+      <section id="footer-top">
+        <article id="contact-text">
+          <h1>Contact Me</h1>
+        </article>
+      </section>
+      <section id="footer-bottom">
+        <article id="contact-form-holder">
+          <ContactForm />
+        </article>
+        <nav id="contact-details">
           <ul>
             <li>
               <p>951-427-8876</p>
@@ -39,7 +42,7 @@ function Footer() {
             </li>
           </ul>
         </nav>
-      </article>
+      </section>
     </footer>
   );
 }
