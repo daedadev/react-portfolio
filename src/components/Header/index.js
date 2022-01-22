@@ -67,7 +67,7 @@ export default class Header extends React.Component {
               </li>
               <li>
                 <a style={{ color: this.state.textColor }} href="/#work">
-                  Work
+                  Projects
                 </a>
               </li>
               <li>
