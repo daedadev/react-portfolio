@@ -59,7 +59,7 @@ export default class Header extends React.Component {
           </nav>
 
           <nav className={this.state.theClassName}>
-            <ul>
+            <ul id="nav-list">
               <li>
                 <a style={{ color: this.state.textColor }} href="/#about-me">
                   About Me
@@ -78,6 +78,40 @@ export default class Header extends React.Component {
               <li>
                 <Link to={"/resume"}>Resume</Link>
               </li>
+            </ul>
+            <ul id="nav-image-list">
+              <a href="https://github.com/wron1">
+                <img
+                  className="nav-images"
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+                  alt="github"
+                  height="40"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/danielmoore201/">
+                <img
+                  className="nav-images"
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
+                  alt="linkedin"
+                  height="40"
+                />
+              </a>
+              <a href="https://twitter.com/Daedadev">
+                <img
+                  className="nav-images"
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"
+                  alt="twitter"
+                  height="40"
+                />
+              </a>
+              <a href="https://www.youtube.com/channel/UCq2hGaZWRavHjTbd-lealaQ/">
+                <img
+                  className="nav-images"
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg"
+                  alt="YouTube"
+                  height="40"
+                />
+              </a>
             </ul>
           </nav>
         </section>

@@ -4,7 +4,16 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  bottom: 0;
+  border-style: none;
   background-color: rgb(49, 49, 49);
+  padding: 1%;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+#large-footer-container {
 }
 
 /* Footer Top */
@@ -19,7 +28,7 @@ footer {
 
 #contact-text h1 {
   color: aliceblue;
-  font-size: larger;
+  font-size: xx-large;
 }
 
 /* Footer Bottom */
@@ -27,14 +36,17 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 #contact-form-holder {
   display: flex;
-  background-color: rgb(109, 109, 109);
-  width: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border-radius: 5px;
+  padding: 3%;
 }
 
 #contact-details {
@@ -44,6 +56,7 @@ footer {
   justify-content: space-evenly;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  width: 50%;
   color: aliceblue;
 }
 
@@ -55,11 +68,6 @@ footer {
   justify-content: space-around;
   margin: 1%;
   width: 100%;
-}
-
-#contact-details ul li {
-  display: flex;
-  margin: 25px;
 }
 
 footer a {
@@ -75,6 +83,19 @@ footer a {
   h1 {
     color: purple;
   }
+  #contact-details ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact-details ul li {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 0%;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -87,26 +108,21 @@ footer a {
   h1 {
     color: red;
   }
-
-  .left {
-    align-items: center;
-    justify-content: center;
-  }
-
-  footer nav ul {
-    list-style-type: none;
+  #footer-bottom {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
-  footer nav ul li {
-    padding-top: 2%;
-    padding-bottom: 4%;
-    margin-left: 0%;
-  }
-  h1 {
-    padding: 1%;
+
+  #contact-form-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border-radius: 5px;
+    padding: 3%;
   }
 }
 
