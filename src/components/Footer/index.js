@@ -4,7 +4,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <section id="footer-top">
         <article id="contact-text">
           <h1>Contact Me</h1>

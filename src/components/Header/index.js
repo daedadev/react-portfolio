@@ -48,7 +48,7 @@ export default class Header extends React.Component {
                 </a>
               </li>
               <li>
-                <a style={{ color: this.state.textColor }} href="#footer">
+                <a style={{ color: this.state.textColor }} href="/#footer">
                   Contact Me
                 </a>
               </li>
@@ -71,7 +71,7 @@ export default class Header extends React.Component {
                 </a>
               </li>
               <li>
-                <a style={{ color: this.state.textColor }} href="#footer">
+                <a style={{ color: this.state.textColor }} href="/#footer">
                   Contact Me
                 </a>
               </li>
@@ -83,7 +83,7 @@ export default class Header extends React.Component {
               <a href="https://github.com/wron1">
                 <img
                   className="nav-images"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+                  src="https://img.icons8.com/color/240/000000/github--v1.png"
                   alt="github"
                   height="40"
                 />
@@ -91,7 +91,7 @@ export default class Header extends React.Component {
               <a href="https://www.linkedin.com/in/danielmoore201/">
                 <img
                   className="nav-images"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
+                  src="https://img.icons8.com/color/240/000000/linkedin.png"
                   alt="linkedin"
                   height="40"
                 />
@@ -99,7 +99,7 @@ export default class Header extends React.Component {
               <a href="https://twitter.com/Daedadev">
                 <img
                   className="nav-images"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"
+                  src="https://img.icons8.com/color/240/000000/twitter--v1.png"
                   alt="twitter"
                   height="40"
                 />
@@ -107,7 +107,7 @@ export default class Header extends React.Component {
               <a href="https://www.youtube.com/channel/UCq2hGaZWRavHjTbd-lealaQ/">
                 <img
                   className="nav-images"
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg"
+                  src="https://img.icons8.com/color/240/000000/youtube-play.png"
                   alt="YouTube"
                   height="40"
                 />
