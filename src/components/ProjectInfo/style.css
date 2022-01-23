@@ -230,6 +230,11 @@
   #about-cell {
     width: 90%;
   }
+
+  #title-cell {
+    padding-top: 5%;
+  }
+
   #link-cell {
     padding: 0;
   }
