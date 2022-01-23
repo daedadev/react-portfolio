@@ -210,8 +210,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  #main-cell {
-  }
   #right-cell {
     height: 100%;
     flex-direction: column-reverse;
@@ -250,5 +248,5 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-}
+/* @media screen and (max-width: 480px) {
+} */
