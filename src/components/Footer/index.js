@@ -17,9 +17,6 @@ function Footer() {
         <nav id="contact-details">
           <ul>
             <li>
-              <p>951-427-8876</p>
-            </li>
-            <li>
               <p>DanielChrisMoore@gmail.com</p>
             </li>
             <li>
