@@ -78,6 +78,7 @@ h1 {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   opacity: 0.7;
@@ -158,6 +159,10 @@ h1 {
   }
   .work-right .large-work {
     width: 97%;
+  }
+
+  #about-me article p {
+    text-align: center;
   }
 }
 
