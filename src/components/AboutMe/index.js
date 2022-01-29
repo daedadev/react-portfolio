@@ -8,7 +8,6 @@ function AboutMe() {
         <h1>About</h1>
         <h1>Me</h1>
       </article>
-
       <article className="right">
         <p>
           My name is Daniel Moore and I am a 24 year old programmer who
@@ -20,6 +19,32 @@ function AboutMe() {
           working with google chrome extensions and have made a few self
           projects using electron.
         </p>
+
+        <section id="skills">
+          <article id="skills-top">
+            <h1>Skills</h1>
+          </article>
+
+          <article id="skills-bottom">
+            <div className="skills-list">
+              <h1>Front-End</h1>
+              <ul>
+                <li className="skills-front-end">HTML</li>
+                <li className="skills-front-end">CSS</li>
+                <li className="skills-front-end">React</li>
+                <li className="skills-front-end">Handlebars</li>
+              </ul>
+            </div>
+            <div className="skills-list">
+              <h1>Back-End</h1>
+              <ul>
+                <li className="skills-back-end">Javascript</li>
+                <li className="skills-back-end">MySQL</li>
+                <li className="skills-back-end">MongoDB</li>
+              </ul>
+            </div>
+          </article>
+        </section>
 
         <p>
           Since starting the coding bootcamp at UCR I have gained much knowledge

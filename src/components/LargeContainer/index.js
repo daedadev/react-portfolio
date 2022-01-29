@@ -6,6 +6,7 @@ import Project from "../Project";
 function LargeContainer() {
   return (
     <section className="large-container">
+      <AboutMe />
       <section id="work" className="left-and-right">
         <section className="left">
           <h1>Projects</h1>
@@ -127,7 +128,6 @@ function LargeContainer() {
           />
         </section>
       </section>
-      <AboutMe />
     </section>
   );
 }
