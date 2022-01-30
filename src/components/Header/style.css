@@ -268,7 +268,7 @@ header h1 {
   }
 
   header nav {
-    display: hidden;
+    display: none;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;

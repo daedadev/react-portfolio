@@ -6,8 +6,8 @@
   display: flex;
   width: 90%;
   max-width: 2000px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 300px;
+  margin-bottom: 600px;
 }
 
 /* General Left Items */
@@ -60,7 +60,7 @@ p {
 
 #aboutme-top h1 {
   font-size: 36px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
 }
 
 #about-me #aboutme-right p {
@@ -85,7 +85,7 @@ p {
 
 #skills-top h1 {
   font-size: 36px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 #skills-top {
@@ -184,6 +184,15 @@ p {
     width: 90%;
     max-width: 1500px;
     margin-top: 80px;
+  }
+
+  #aboutme-top h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+  }
+
+  #skills-top h1 {
+    padding-bottom: 10px;
   }
 
   .paragraph {

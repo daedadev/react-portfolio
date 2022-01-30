@@ -1,8 +1,12 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { useLocation } from "react-router";
 import ProjectInfo from "../components/ProjectInfo";
 
 function ProjectPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const location = useLocation();
   const {
     liveApp,

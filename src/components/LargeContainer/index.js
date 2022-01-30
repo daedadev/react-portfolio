@@ -5,10 +5,11 @@ import Project from "../Project";
 
 function LargeContainer() {
   return (
-    <section className="large-container">
+    <section id="aboutme-section" className="large-container">
       <AboutMe />
       <section id="work">
         <section id="project-title">
+          <div id="work-section"></div>
           <h1>Projects</h1>
         </section>
 
@@ -19,9 +20,7 @@ function LargeContainer() {
             title={"Google Book Search"}
             image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
             classy={"large-work"}
-            info={
-              "This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books."
-            }
+            info={`This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`}
             challenges={
               "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
             }
