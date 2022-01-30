@@ -7,12 +7,12 @@ function LargeContainer() {
   return (
     <section className="large-container">
       <AboutMe />
-      <section id="work" className="left-and-right">
-        <section className="left">
+      <section id="work">
+        <section id="project-title">
           <h1>Projects</h1>
         </section>
 
-        <section className="work-right">
+        <section className="projects-main">
           <Project
             liveApp={"https://reactappbooksearch.herokuapp.com/"}
             githubApp={"https://github.com/wron1/google-book-search"}

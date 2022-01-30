@@ -7,14 +7,12 @@ import Wrapper from "../Wrapper";
 import Header from "../Header";
 import Footer from "../Footer";
 import Resume from "../../pages/Resume";
-import Banner from "../Banner";
 
 function AppNav() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Wrapper>
         <Header />
-        <Banner />
         <Switch>
           <Route exact path="/">
             <MainPage />

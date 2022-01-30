@@ -21,14 +21,6 @@ export default class Header extends React.Component {
     return (
       <header>
         <section className="header-top">
-          <div>
-            <img
-              src={`${process.env.PUBLIC_URL + "images/ProfilePicture.jpeg"}`}
-              alt="My beautiful face"
-            />
-            <h2>Daniel Moore</h2>
-          </div>
-
           <button className="menu-button" onClick={this.activateDirectory}>
             <div className="bar1"></div>
             <div className="bar2"></div>
@@ -115,7 +107,6 @@ export default class Header extends React.Component {
             </ul>
           </nav>
         </section>
-        <div className="header-bottom"></div>
       </header>
     );
   }

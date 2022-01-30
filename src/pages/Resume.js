@@ -3,12 +3,8 @@ import ResumeFile from "../components/Resume/";
 
 function Resume() {
   return (
-    <section id="work" className="left-and-right">
-      <section className="left">
-        <h1>Resume</h1>
-      </section>
-
-      <section className="work-right">
+    <section id="resume">
+      <section className="resume-holder">
         <ResumeFile />
       </section>
     </section>

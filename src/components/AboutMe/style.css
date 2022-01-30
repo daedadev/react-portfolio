@@ -1,9 +1,23 @@
-/* General Left Items */
-.left {
-  flex-direction: column;
-  align-items: flex-end;
+#about-me {
   display: flex;
-  padding: 1%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  max-width: 2000px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/* General Left Items */
+#aboutme-left {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 40%;
+  height: 100%;
 }
 
 .left h1 {
@@ -15,25 +29,48 @@ p {
 }
 
 /* General Right Items */
-.right {
+#aboutme-right {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  padding: 1%;
+  width: 60%;
 }
 
-#about-me .right p {
-  padding-bottom: 1%;
+#aboutme-right img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 160px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
 }
 
-/* Styling for the larger containers holding the 3 left and rights */
-.left-and-right {
+#aboutme-top {
   display: flex;
   flex-direction: row;
-  background-color: var(--lightergrey);
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#aboutme-top h1 {
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+#about-me #aboutme-right p {
+  text-align: left;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #skills {
@@ -41,15 +78,14 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 30%;
+  height: 100%;
   color: aliceblue;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #skills-top h1 {
   font-size: 36px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
 #skills-top {
@@ -103,19 +139,55 @@ p {
 }
 
 @media screen and (max-width: 992px) {
+  #about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    margin-top: 80px;
+  }
+
+  #skills-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
   h1 {
     color: green;
   }
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
-    color: red;
+  #aboutme-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    max-width: 1500px;
+    margin-top: 80px;
   }
 
-  #about-me .right p {
-    width: 97%;
-    padding-left: 1%;
+  .paragraph {
+    flex-direction: column-reverse;
   }
 
   .right {

@@ -1,6 +1,7 @@
 .large-cell {
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
   padding-bottom: 1%;
 }
 
@@ -174,6 +175,7 @@
   .large-cell {
     align-items: center;
     justify-content: center;
+    margin-top: 200px;
   }
   #main-cell {
     display: flex;
@@ -213,6 +215,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .large-cell {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
   #right-cell {
     height: 100%;
     flex-direction: column-reverse;
@@ -236,6 +243,12 @@
 
   #title-cell {
     padding-top: 5%;
+    width: 50%;
+    align-items: center;
+  }
+
+  #title-cell h2 {
+    text-align: center;
   }
 
   #link-cell {
