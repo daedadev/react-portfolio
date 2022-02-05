@@ -6,7 +6,6 @@ import ProjectPage from "../../pages/ProjectPage";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
 import Footer from "../Footer";
-import Resume from "../../pages/Resume";
 
 function AppNav() {
   return (
@@ -16,9 +15,6 @@ function AppNav() {
         <Switch>
           <Route exact path="/">
             <MainPage />
-          </Route>
-          <Route exact path="/resume">
-            <Resume />
           </Route>
           <Route exact path="/project">
             <ProjectPage />

@@ -212,3 +212,47 @@
     padding-top: 20px;
   }
 }
+
+@media screen and (max-height: 400px) {
+  .banner {
+    padding-top: 40px;
+  }
+
+  .banner h3 {
+    font-size: x-large;
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  #text-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .text-mid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    color: rgb(179, 218, 255);
+  }
+
+  .text-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #down-arrow {
+    display: none;
+  }
+}
