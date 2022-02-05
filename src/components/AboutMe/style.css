@@ -218,3 +218,15 @@ p {
     color: blue;
   }
 }
+
+@media screen and (max-height: 600px) {
+  #about-me {
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+
+  #aboutme-top h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+}

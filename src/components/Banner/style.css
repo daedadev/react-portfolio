@@ -196,8 +196,19 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  h1 {
-    color: blue;
+@media screen and (max-height: 600px) {
+  #text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 80%;
+  }
+  #down-arrow {
+    margin-top: 10%;
+  }
+  .banner {
+    padding-top: 20px;
   }
 }
