@@ -9,8 +9,8 @@
   width: 100%;
   background-image: linear-gradient(
     to bottom,
-    rgb(49, 49, 49, 1),
-    rgb(49, 49, 49, 0)
+    rgb(46, 41, 70),
+    rgba(46, 41, 70, 0.01)
   );
 }
 
@@ -57,7 +57,7 @@
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  color: rgb(179, 218, 255);
+  color: rgb(255, 219, 57);
 }
 
 .text-bottom {
