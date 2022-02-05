@@ -1,7 +1,4 @@
 /* Styling for image located under the header */
-img {
-  height: 200px;
-}
 
 .banner {
   display: flex;
@@ -17,16 +14,103 @@ img {
   );
 }
 
+.banner h3 {
+  font-size: xx-large;
+}
+
 #text-holder {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 200px;
+  width: 30%;
 }
 
 .banner h1 {
+  font-size: 55px;
   color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#carousel-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+#text-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.text-mid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  color: rgb(179, 218, 255);
+}
+
+.text-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#down-arrow {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: x-large;
+  margin-top: 20%;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 40%;
+}
+
+#down-arrow:hover {
+}
+
+.rec.rec-carousel-wrapper {
+  height: 65px;
+  width: 100%;
+}
+
+.rec.rec-carousel h3 {
+  width: 100%;
+}
+
+.rec.rec-arrow {
+  display: none;
+}
+
+.rec.rec-dot {
+  display: none;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 @media screen and (max-width: 100000px) {
@@ -37,13 +121,64 @@ img {
   }
 }
 
+@media screen and (max-width: 2302px) {
+  h1 {
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+  }
+
+  #text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  h1 {
+  }
+
+  .banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+  }
+
+  #text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   h1 {
   }
 
   .banner h1 {
     color: rgb(255, 255, 255);
-    font-size: 140%;
+    font-size: 55px;
+  }
+
+  #carousel-holder {
+    width: 100%;
+  }
+
+  #text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
   }
 }
 
