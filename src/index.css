@@ -22,13 +22,32 @@ body {
   --MainAccent: rgb(49, 49, 49);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d7dff8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5f6374;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4c5364;
+}
+
 body {
-  background-color: var(--HeaderBackground);
+  background-image: linear-gradient(to bottom, #5f6374, #13161e);
   font-family: Helvetica, sans-serif;
 }
 
 h1 {
-  color: var(--TextColor);
+  color: aliceblue;
   font-family: Helvetica, sans-serif;
 }
 

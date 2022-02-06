@@ -21,7 +21,7 @@
 }
 
 .form-input {
-  background-color: rgb(83, 83, 83);
+  background-color: #5f6374;
   color: aliceblue;
   font-size: medium;
   border-style: none;
@@ -48,8 +48,8 @@
 #submit-input {
   width: 50px;
   height: 20px;
-  background-color: rgb(83, 83, 83);
-  border-color: rgb(83, 83, 83);
+  background-color: #5f6374;
+  border-color: #5f6374;
   border-style: solid;
   font-size: small;
   color: aliceblue;

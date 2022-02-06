@@ -22,7 +22,7 @@ a:focus:hover {
   border-width: 5px;
   opacity: 0.8;
   border-style: solid;
-  border-color: black;
+  border-color: #4b5563;
 }
 
 .large-work div:hover {
@@ -33,7 +33,7 @@ a:focus:hover {
   color: aliceblue;
   position: absolute;
   font-size: 25px;
-  background-color: var(--MainAccent);
+  background-color: #4b5563;
   padding: 10px;
   border-radius: 0 10px 10px 0;
 }
@@ -56,7 +56,7 @@ a:focus:hover {
   align-items: center;
   opacity: 0.8;
   border-style: solid;
-  border-color: black;
+  border-color: #4b5563;
 }
 
 .small-work div:hover {
@@ -67,7 +67,7 @@ a:focus:hover {
   color: aliceblue;
   position: absolute;
   font-size: 25px;
-  background-color: var(--MainAccent);
+  background-color: #4b5563;
   padding: 10px;
   border-radius: 0 10px 10px 0;
 }

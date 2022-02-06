@@ -7,7 +7,7 @@ footer {
   width: 100%;
   bottom: 0;
   border-style: none;
-  background-color: rgb(49, 49, 49);
+  background-color: #13161e;
   padding: 1%;
   padding-bottom: 50px;
   margin-top: 20px;
@@ -68,6 +68,10 @@ footer {
 }
 
 footer a {
+  color: aliceblue;
+}
+
+footer p {
   color: aliceblue;
 }
 

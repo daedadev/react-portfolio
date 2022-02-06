@@ -10,6 +10,10 @@
   margin-bottom: 600px;
 }
 
+strong {
+  color: aliceblue;
+}
+
 /* General Left Items */
 #aboutme-left {
   flex-direction: column;
@@ -45,6 +49,7 @@ p {
   border-style: solid;
   border-width: 2px;
   border-radius: 160px;
+  border-color: #4c5364;
   width: 150px;
   height: 150px;
   margin: 20px;
@@ -64,6 +69,7 @@ p {
 }
 
 #about-me #aboutme-right p {
+  color: #d7dff8;
   text-align: left;
 }
 
@@ -80,7 +86,6 @@ p {
   justify-content: center;
   width: 30%;
   height: 100%;
-  color: aliceblue;
 }
 
 #skills-top h1 {
@@ -89,6 +94,7 @@ p {
 }
 
 #skills-top {
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,6 +122,7 @@ p {
 }
 
 .skills-list li {
+  color: aliceblue;
   list-style: none;
   font-size: 24px;
   padding: 10px;
@@ -158,7 +165,6 @@ p {
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: aliceblue;
     margin-top: 80px;
   }
 
