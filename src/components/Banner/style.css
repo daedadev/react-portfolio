@@ -9,7 +9,6 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  text-shadow: 2px 4px black;
 }
 
 .banner h3 {
@@ -26,10 +25,18 @@
   width: 30%;
 }
 
-.banner h1 {
+.banner strong {
   font-size: 55px;
-  color: aliceblue;
+  color: #13161e;
+  text-shadow: none;
   margin-bottom: 40px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: xx-large;
+  color: aliceblue;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -48,7 +55,7 @@
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
 }
 
 .text-mid {
@@ -126,10 +133,6 @@
   h1 {
   }
 
-  .banner h1 {
-    font-size: 55px;
-  }
-
   #text-holder {
     display: flex;
     flex-direction: column;
@@ -147,10 +150,6 @@
   .banner {
     display: flex;
     background-size: auto 100vh;
-  }
-
-  .banner h1 {
-    font-size: 55px;
   }
 
   #text-holder {
