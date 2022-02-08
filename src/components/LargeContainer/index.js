@@ -27,7 +27,7 @@ function LargeContainer() {
     dependancies,
     video
   ) {
-    window.location.href = "/#work-section";
+    window.location.href = "/#mobile-jump";
 
     setLiveApp(liveApp);
     setGithubApp(githubApp);

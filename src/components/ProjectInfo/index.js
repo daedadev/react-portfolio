@@ -36,6 +36,7 @@ function ProjectInfo({
 
   return (
     <section className={showProject}>
+      <span id="mobile-jump"></span>
       <section id="title-cell">
         <h2>{title}</h2>
         <button id="modal-button" onClick={() => toggleModal("display-off")}>
@@ -96,6 +97,12 @@ function ProjectInfo({
           </div>
         </div>
       </section>
+      <button
+        id="close-project-button"
+        onClick={() => toggleModal("display-off")}
+      >
+        Close Modal
+      </button>
     </section>
   );
 }
