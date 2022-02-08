@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function Project({
@@ -13,29 +12,31 @@ function Project({
   triumphs,
   dependancies,
   video,
+  openModal,
 }) {
   return (
-    <Link
-      className={classy}
-      to={{
-        pathname: "/project",
-        state: {
-          liveApp: liveApp,
-          githubApp: githubApp,
-          title: title,
-          image: image,
-          info: info,
-          challenges: challenges,
-          triumphs: triumphs,
-          dependancies: dependancies,
-          video: video,
-        },
-      }}
-    >
-      <div style={{ backgroundImage: image }}></div>
-
-      <p>{title}</p>
-    </Link>
+    <>
+      <button
+        style={{ backgroundImage: image }}
+        className={classy}
+        onClick={() =>
+          openModal(
+            liveApp,
+            githubApp,
+            title,
+            image,
+            info,
+            challenges,
+            triumphs,
+            dependancies,
+            video,
+            openModal
+          )
+        }
+      >
+        <p>{title}</p>
+      </button>
+    </>
   );
 }
 

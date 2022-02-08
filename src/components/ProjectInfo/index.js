@@ -12,6 +12,8 @@ function ProjectInfo({
   title,
   dependancies,
   video,
+  showProject,
+  toggleModal,
 }) {
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -33,9 +35,12 @@ function ProjectInfo({
   };
 
   return (
-    <section className="large-cell">
+    <section className={showProject}>
       <section id="title-cell">
         <h2>{title}</h2>
+        <button id="modal-button" onClick={() => toggleModal("display-off")}>
+          x
+        </button>
       </section>
       <section id="main-cell">
         <article style={{ backgroundImage: image }} id="image-cell"></article>
@@ -76,21 +81,21 @@ function ProjectInfo({
             </button>
           </article>
         </article>
-      </section>
-      <div className={modalOpen ? "visible" : "hidden"}>
-        <div className="video-holder">
-          <button id="close-player" onClick={hideModal}>
-            X
-          </button>
-          <ReactPlayer
-            height="100%"
-            width="100%"
-            controls
-            url={video}
-            playing={modalOpen}
-          />
+        <div className={modalOpen ? "visible" : "hidden"}>
+          <div className="video-holder">
+            <button id="close-player" onClick={hideModal}>
+              X
+            </button>
+            <ReactPlayer
+              height="100%"
+              width="100%"
+              controls
+              url={video}
+              playing={modalOpen}
+            />
+          </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 }

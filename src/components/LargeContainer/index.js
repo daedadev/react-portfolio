@@ -1,9 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import AboutMe from "../AboutMe";
 import Project from "../Project";
+import ProjectInfo from "../ProjectInfo";
 
 function LargeContainer() {
+  const [liveApp, setLiveApp] = useState();
+  const [githubApp, setGithubApp] = useState();
+  const [title, setTitle] = useState();
+  const [image, setImage] = useState();
+  const [info, setInfo] = useState();
+  const [challenges, setChallenges] = useState();
+  const [triumphs, setTriumphs] = useState();
+  const [dependancies, setDependancies] = useState([]);
+  const [video, setVideo] = useState();
+  const [showProject, setShowProject] = useState("display-off");
+
+  function setModal(
+    liveApp,
+    githubApp,
+    title,
+    image,
+    info,
+    challenges,
+    triumphs,
+    dependancies,
+    video
+  ) {
+    window.location.href = "/#work-section";
+
+    setLiveApp(liveApp);
+    setGithubApp(githubApp);
+    setTitle(title);
+    setImage(image);
+    setInfo(info);
+    setChallenges(challenges);
+    setTriumphs(triumphs);
+    setDependancies(dependancies);
+    setVideo(video);
+
+    setShowProject("large-cell");
+  }
+
+  function toggleModal(theClass) {
+    setShowProject(theClass);
+  }
+
   return (
     <section id="aboutme-section" className="large-container">
       <AboutMe />
@@ -29,6 +71,7 @@ function LargeContainer() {
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
             video={"https://youtu.be/EY7OpUQH-wI"}
+            openModal={setModal}
           />
 
           <Project
@@ -48,6 +91,7 @@ function LargeContainer() {
             }
             dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
             video={"https://youtu.be/cDrZ24a-tKk"}
+            openModal={setModal}
           />
 
           <Project
@@ -73,6 +117,7 @@ function LargeContainer() {
               "Heroku",
             ]}
             video={"https://youtu.be/zV4plFiY0eU"}
+            openModal={setModal}
           />
 
           <Project
@@ -96,6 +141,7 @@ function LargeContainer() {
             }
             dependancies={["Javascript", "MySQL", "Sequelize", "HTML"]}
             video={"https://youtu.be/nwrqRrjI7Pc"}
+            openModal={setModal}
           />
 
           <Project
@@ -124,8 +170,22 @@ function LargeContainer() {
               "TailwindCSS",
             ]}
             video={"https://youtu.be/C9ObVO5OhEI"}
+            openModal={setModal}
           />
         </section>
+        <ProjectInfo
+          liveApp={liveApp}
+          githubApp={githubApp}
+          title={title}
+          image={image}
+          info={info}
+          challenges={challenges}
+          triumphs={triumphs}
+          dependancies={dependancies}
+          video={video}
+          showProject={showProject}
+          toggleModal={toggleModal}
+        />
       </section>
     </section>
   );

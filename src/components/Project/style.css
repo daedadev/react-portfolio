@@ -5,6 +5,14 @@ a:focus:hover {
 /* Large item inside of the Work Section */
 .large-work {
   display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  border-width: 5px;
+  opacity: 0.8;
+  border-style: solid;
+  border-color: #4b5563;
   width: 100%;
   height: 400px;
   margin: 1%;
@@ -12,20 +20,7 @@ a:focus:hover {
   margin-bottom: 80px;
 }
 
-.large-work div {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: space-between;
-  border-width: 5px;
-  opacity: 0.8;
-  border-style: solid;
-  border-color: #4b5563;
-}
-
-.large-work div:hover {
+.large-work:hover {
   opacity: 1;
 }
 
@@ -41,6 +36,13 @@ a:focus:hover {
 /* Small items inside of the Work Section */
 .small-work {
   display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  opacity: 0.8;
+  border-style: solid;
+  border-color: #4b5563;
   width: 47%;
   height: 200px;
   margin: 1%;
@@ -59,7 +61,7 @@ a:focus:hover {
   border-color: #4b5563;
 }
 
-.small-work div:hover {
+.small-work:hover {
   opacity: 1;
 }
 

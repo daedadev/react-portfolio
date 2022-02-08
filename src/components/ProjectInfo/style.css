@@ -1,8 +1,46 @@
 .large-cell {
   display: flex;
+  position: absolute;
   flex-direction: column;
+  width: 95%;
   margin-top: 80px;
+  border-radius: 20px;
   padding-bottom: 1%;
+  background-color: #5f6374;
+}
+
+#modal-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 0px;
+  background-color: #d7dff8;
+  border-color: #d7dff8;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+#modal-button:hover {
+  background-color: aliceblue;
+  border-color: aliceblue;
+}
+
+#modal-button:active {
+  color: #d7dff8;
+  background-color: #d7dff8;
+  border-color: aliceblue;
+}
+
+.display-off {
+  display: none;
 }
 
 #main-cell {
@@ -38,7 +76,9 @@ b {
 #title-cell {
   color: aliceblue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
   align-items: center;
   font-size: larger;
   padding-top: 1%;
@@ -142,8 +182,8 @@ b {
 .visible {
   visibility: visible;
   opacity: 1;
+  position: absolute;
   display: flex;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -157,12 +197,16 @@ b {
 
 .video-holder {
   display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
-  height: 60%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
 }
 
 #close-player {
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -283,6 +327,9 @@ b {
     align-items: center;
     text-align: center;
     padding: 1%;
+  }
+  .large-cell {
+    width: 100%;
   }
 }
 

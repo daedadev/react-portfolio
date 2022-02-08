@@ -62,4 +62,8 @@
     width: 90%;
     margin-bottom: 0px;
   }
+
+  .large-container {
+    margin-bottom: 150px;
+  }
 }
