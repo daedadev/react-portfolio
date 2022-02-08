@@ -25,9 +25,6 @@ a:focus:hover {
 
 .large-work p {
   color: aliceblue;
-  position: relative;
-  top: 0;
-  left: 0;
   font-size: 25px;
   background-color: #4b5563;
   padding: 10px;
@@ -39,7 +36,6 @@ a:focus:hover {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
   opacity: 0.8;
   border-style: solid;
   border-color: #4b5563;
@@ -50,24 +46,12 @@ a:focus:hover {
   margin-bottom: 80px;
 }
 
-.small-work div {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  opacity: 0.8;
-  border-style: solid;
-  border-color: #4b5563;
-}
-
 .small-work:hover {
   opacity: 1;
 }
 
 .small-work p {
   color: aliceblue;
-  position: absolute;
   font-size: 25px;
   background-color: #4b5563;
   padding: 10px;
@@ -114,22 +98,17 @@ a:focus:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-right: 7px;
   }
 
-  .small-work div {
+  .small-work {
     opacity: 1;
   }
 
-  .large-work div {
+  .large-work {
     opacity: 1;
   }
 
   .large-container {
     padding-bottom: 20px;
-  }
-
-  #about-me article p {
-    text-align: center;
   }
 }

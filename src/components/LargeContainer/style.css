@@ -22,7 +22,7 @@
   width: 100%;
   max-height: 4000px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .projects-main a {
@@ -44,7 +44,7 @@
 
 #work-section {
   height: 10px;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -59,7 +59,7 @@
 
   #work-section {
     height: 10px;
-    width: 90%;
+    width: 100%;
     margin-bottom: 0px;
   }
 
