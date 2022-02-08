@@ -51,6 +51,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .small-work {
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
@@ -59,6 +66,8 @@
     width: 97%;
     margin-bottom: 20px;
     height: 200px;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .large-work {
@@ -68,10 +77,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .large-work {
+    border-color: #4b5563;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .small-work {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
   .left-and-right {
     display: flex;
     flex-direction: column;
