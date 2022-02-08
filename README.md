@@ -6,7 +6,7 @@ Welcome to my personal portfolio, I am a software engineer specializing in Javas
 
 Welcome to my portfolio and I hope that you enjoy.
 
-Link to the finished webpage: https://danielmooreportfolio.com
+Link to the Live webpage: https://danielmooreportfolio.com
 
 ## Usage Desktop
 
