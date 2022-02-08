@@ -1,8 +1,3 @@
-a:focus:hover {
-  color: aliceblue;
-}
-
-/* Large item inside of the Work Section */
 .large-work {
   display: flex;
   background-repeat: no-repeat;
@@ -12,6 +7,8 @@ a:focus:hover {
   opacity: 0.8;
   border-style: solid;
   border-color: #4b5563;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
   height: 400px;
   margin: 1%;
@@ -23,7 +20,8 @@ a:focus:hover {
   opacity: 1;
 }
 
-.large-work p {
+.text-p {
+  position: relative;
   color: aliceblue;
   font-size: 25px;
   background-color: #4b5563;
@@ -39,6 +37,8 @@ a:focus:hover {
   opacity: 0.8;
   border-style: solid;
   border-color: #4b5563;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 47%;
   height: 200px;
   margin: 1%;
