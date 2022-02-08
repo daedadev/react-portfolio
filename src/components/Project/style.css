@@ -8,7 +8,6 @@ a:focus:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -50px;
-  justify-content: space-between;
   border-width: 5px;
   opacity: 0.8;
   border-style: solid;
@@ -26,7 +25,9 @@ a:focus:hover {
 
 .large-work p {
   color: aliceblue;
-  position: absolute;
+  position: relative;
+  top: 0;
+  left: 0;
   font-size: 25px;
   background-color: #4b5563;
   padding: 10px;
@@ -39,7 +40,6 @@ a:focus:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: flex-start;
   opacity: 0.8;
   border-style: solid;
   border-color: #4b5563;
@@ -74,6 +74,14 @@ a:focus:hover {
   border-radius: 0 10px 10px 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .large-work {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 @media screen and (max-width: 998px) {
   .small-work {
     width: 97%;
@@ -85,6 +93,9 @@ a:focus:hover {
     width: 97%;
     height: 450px;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
