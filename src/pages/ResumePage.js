@@ -6,7 +6,11 @@ function ResumePage() {
   }, []);
   return (
     <div>
-      <iframe title="resume" src="/Software Resume.pdf"></iframe>
+      <iframe
+        id="resmue-holder"
+        title="resume"
+        src="/Software Resume.pdf"
+      ></iframe>
     </div>
   );
 }

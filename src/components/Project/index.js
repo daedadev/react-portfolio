@@ -17,7 +17,9 @@ function Project({
   return (
     <>
       <button
-        style={{ backgroundImage: image }}
+        style={{
+          backgroundImage: image,
+        }}
         className={classy}
         onClick={() =>
           openModal(

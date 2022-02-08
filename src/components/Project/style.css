@@ -7,7 +7,7 @@ a:focus:hover {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0px -50px;
   justify-content: space-between;
   border-width: 5px;
   opacity: 0.8;

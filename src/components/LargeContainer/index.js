@@ -57,11 +57,35 @@ function LargeContainer() {
 
         <section className="projects-main">
           <Project
+            liveApp={"https://web-sneaker-app.herokuapp.com/"}
+            githubApp={"https://github.com/wron1/upper-level-kicks"}
+            title={"Upper Level Kicks"}
+            image={`url(${process.env.PUBLIC_URL + "/images/UpperLevel3.PNG"})`}
+            classy={"large-work"}
+            info={`This is a personal pet project of mine that utilizes the Sneaks-API which contains data that has been scraped from StockX/GOAT/FlightClub into one single database. As a sneaker enthusiast myself seeing this data I challenged myself to make a website that mimicked StockX but housed a variety of prices. A hub of resell websites provided by that API.`}
+            challenges={
+              "Main difficulty with this project was parsing the data and mapping it in a way that is presentable and modular."
+            }
+            triumphs={
+              "Being able to create a webpage with similar conventions as StockX is a huge accomplishment. The preloading and inline search results really mimic their websites feel."
+            }
+            dependancies={[
+              "Javascript",
+              "React",
+              "HTML",
+              "Firebase",
+              "MySQL",
+              "Sneaks-API",
+            ]}
+            video={"https://youtu.be/EY7OpUQH-wI"}
+            openModal={setModal}
+          />
+          <Project
             liveApp={"https://reactappbooksearch.herokuapp.com/"}
             githubApp={"https://github.com/wron1/google-book-search"}
             title={"Google Book Search"}
             image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
-            classy={"large-work"}
+            classy={"small-work"}
             info={`This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`}
             challenges={
               "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
@@ -71,26 +95,6 @@ function LargeContainer() {
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
             video={"https://youtu.be/EY7OpUQH-wI"}
-            openModal={setModal}
-          />
-
-          <Project
-            liveApp={"https://wron1.github.io/pokemon-tracker/"}
-            githubApp={"https://github.com/wron1/pokemon-tracker"}
-            title={"Pokemon Card Tracker"}
-            image={`url(${process.env.PUBLIC_URL + "/images/pokemon.PNG"})`}
-            classy={"small-work"}
-            info={
-              "This project was designed to help users search the pokemon card database using specific search criteria based on the pokemons generation, type, and name. After searching, users will be able to compare te prices of different cards across several marketplaces and save their preferred cards to return to later. This project was challenging, but interesting and gave us an opportunity to better understand APIs and their deployment, as well as hone our skills in HTML and CSS."
-            }
-            challenges={
-              "This was my first time working with API's on such a large scale and handling the huge amounts of data that come with pokemon cards was a bit overwheling. Also I was the sole backend developer on this project."
-            }
-            triumphs={
-              "We successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I personally became extremely comfortable with APIs after this project."
-            }
-            dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
-            video={"https://youtu.be/cDrZ24a-tKk"}
             openModal={setModal}
           />
 
@@ -121,6 +125,26 @@ function LargeContainer() {
           />
 
           <Project
+            liveApp={"https://wron1.github.io/pokemon-tracker/"}
+            githubApp={"https://github.com/wron1/pokemon-tracker"}
+            title={"Pokemon Card Tracker"}
+            image={`url(${process.env.PUBLIC_URL + "/images/pokemon.PNG"})`}
+            classy={"small-work"}
+            info={
+              "This project was designed to help users search the pokemon card database using specific search criteria based on the pokemons generation, type, and name. After searching, users will be able to compare te prices of different cards across several marketplaces and save their preferred cards to return to later. This project was challenging, but interesting and gave us an opportunity to better understand APIs and their deployment, as well as hone our skills in HTML and CSS."
+            }
+            challenges={
+              "This was my first time working with API's on such a large scale and handling the huge amounts of data that come with pokemon cards was a bit overwheling. Also I was the sole backend developer on this project."
+            }
+            triumphs={
+              "We successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I personally became extremely comfortable with APIs after this project."
+            }
+            dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
+            video={"https://youtu.be/cDrZ24a-tKk"}
+            openModal={setModal}
+          />
+
+          {/* <Project
             liveApp={
               "https://drive.google.com/file/d/1P3UFwL1Xowo-_Ounieit_n6NMbY11HPZ/view"
             }
@@ -142,7 +166,7 @@ function LargeContainer() {
             dependancies={["Javascript", "MySQL", "Sequelize", "HTML"]}
             video={"https://youtu.be/nwrqRrjI7Pc"}
             openModal={setModal}
-          />
+          /> */}
 
           <Project
             liveApp={"https://rocky-river-62832.herokuapp.com/dealer"}
