@@ -77,7 +77,7 @@ function LargeContainer() {
               "MySQL",
               "Sneaks-API",
             ]}
-            video={"https://youtu.be/EY7OpUQH-wI"}
+            video={""}
             openModal={setModal}
           />
           <Project
