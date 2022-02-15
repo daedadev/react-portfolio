@@ -19,12 +19,10 @@ function ProjectInfo({
 
   function showModal() {
     setModalOpen(true);
-    console.log(modalOpen);
   }
 
   function hideModal() {
     setModalOpen(false);
-    console.log(modalOpen);
   }
 
   const openLiveApp = () => {

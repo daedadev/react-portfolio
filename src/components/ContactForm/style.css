@@ -22,6 +22,7 @@
 
 .form-input {
   background-color: #5f6374;
+  resize: none;
   color: aliceblue;
   font-size: medium;
   border-style: none;

@@ -8,10 +8,8 @@ function Header() {
   function activateDirectory() {
     if (theClassName === "default") {
       setTheClassName("modified");
-      console.log(theClassName);
     } else {
       setTheClassName("default");
-      console.log(theClassName);
     }
   }
 
