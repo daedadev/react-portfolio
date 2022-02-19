@@ -36,7 +36,7 @@
 .banner h1 {
   font-size: xx-large;
   color: aliceblue;
-  margin-bottom: 10px;
+  margin-bottom: 21px;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  padding-bottom: 22px;
+  padding-bottom: 28px;
 }
 
 .text-mid {
