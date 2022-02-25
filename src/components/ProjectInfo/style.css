@@ -8,7 +8,15 @@
   border-radius: 20px;
   padding-bottom: 1%;
   background-color: #5f6374;
-  transition: 0.4s;
+  transition: 1s;
+}
+
+.display-off {
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  width: 95%;
 }
 
 #mobile-jump {
@@ -45,13 +53,6 @@
   color: #d7dff8;
   background-color: #d7dff8;
   border-color: aliceblue;
-}
-
-.display-off {
-  z-index: -1;
-  position: absolute;
-  opacity: 0;
-  transition: 0.4s;
 }
 
 .close-large-modal {
