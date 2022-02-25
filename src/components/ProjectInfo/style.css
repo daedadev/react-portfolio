@@ -8,15 +8,21 @@
   border-radius: 20px;
   padding-bottom: 1%;
   background-color: #5f6374;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .display-off {
+  display: flex;
   z-index: -1;
-  position: absolute;
   opacity: 0;
-  transition: 1s;
+  position: absolute;
+  flex-direction: column;
   width: 95%;
+  margin-top: 80px;
+  border-radius: 20px;
+  padding-bottom: 1%;
+  background-color: #5f6374;
+  transition: 0.8s;
 }
 
 #mobile-jump {
@@ -273,10 +279,17 @@ b {
 }
 
 @media screen and (max-width: 992px) {
+  .display-off {
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    transition: 0.4s;
+  }
   .large-cell {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    transition: 0.4s;
   }
   #main-cell {
     display: flex;
@@ -322,6 +335,7 @@ b {
     justify-content: center;
     margin-top: 0px;
   }
+
   #right-cell {
     height: 100%;
     flex-direction: column-reverse;

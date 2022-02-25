@@ -13,7 +13,7 @@ function Banner() {
           <h3 id="text-1">I am a </h3>
           <Carousel
             enableAutoPlay
-            autoPlaySpeed={1500}
+            autoPlaySpeed={1000}
             verticalMode
             itemsToShow={1}
           >
@@ -23,7 +23,7 @@ function Banner() {
             <h3 className="text-mid">Back End</h3>
             <h3 className="text-mid">Full Stack</h3>
           </Carousel>
-          <Carousel enableAutoPlay autoPlaySpeed={3000} itemsToShow={1}>
+          <Carousel enableAutoPlay autoPlaySpeed={2000} itemsToShow={1}>
             <h3 className="text-bottom">Creator</h3>
             <h3 className="text-bottom">Thinker</h3>
             <h3 className="text-bottom">Web Developer</h3>
