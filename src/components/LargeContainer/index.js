@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import AboutMe from "../AboutMe";
 import Project from "../Project";
 import ProjectInfo from "../ProjectInfo";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function LargeContainer() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const [liveApp, setLiveApp] = useState();
   const [githubApp, setGithubApp] = useState();
   const [title, setTitle] = useState();
@@ -52,10 +58,16 @@ function LargeContainer() {
       <section id="work">
         <section id="project-title">
           <div id="work-section"></div>
-          <h1>Projects</h1>
+          <h1 data-aos="zoom-out">Projects</h1>
         </section>
+        {showProject === "large-cell" && (
+          <div
+            className="close-large-modal"
+            onClick={() => toggleModal("display-off")}
+          ></div>
+        )}
 
-        <section className="projects-main">
+        <section className="projects-main" data-aos="fade-left">
           <Project
             liveApp={"https://web-sneaker-app.herokuapp.com/"}
             githubApp={"https://github.com/wron1/upper-level-kicks"}

@@ -1,20 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactForm from "../ContactForm";
 import "./style.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <footer id="footer">
       <section id="footer-top">
         <article id="contact-text">
-          <h1>Contact Me</h1>
+          <h1 data-aos="zoom-out">Contact Me</h1>
         </article>
       </section>
-      <section id="footer-bottom">
-        <article id="contact-form-holder">
+      <section id="footer-bottom" data-aos="fade-down">
+        <article id="contact-form-holder" data-aos="fade-up">
           <ContactForm />
         </article>
-        <nav id="contact-details">
+        <nav id="contact-details" data-aos="fade-up">
           <ul>
             <li>
               <p>DanielChrisMoore@gmail.com</p>

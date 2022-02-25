@@ -30,7 +30,7 @@ function Banner() {
           </Carousel>
         </div>
 
-        <a id="down-arrow" href="/#aboutme-section">
+        <a id="down-arrow" href="/#aboutme-section" data-aos="fade-left">
           {" "}
           &or;
         </a>

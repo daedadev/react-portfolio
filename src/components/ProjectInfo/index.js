@@ -80,14 +80,14 @@ function ProjectInfo({
             </button>
           </article>
         </article>
-        <div className={modalOpen ? "visible" : "hidden"}>
+        <div onClick={hideModal} className={modalOpen ? "visible" : "hidden"}>
           <div className="video-holder">
             <button id="close-player" onClick={hideModal}>
               X
             </button>
             <ReactPlayer
-              height="100%"
-              width="100%"
+              height="80%"
+              width="70%"
               controls
               url={video}
               playing={modalOpen}
@@ -99,7 +99,7 @@ function ProjectInfo({
         id="close-project-button"
         onClick={() => toggleModal("display-off")}
       >
-        Close Modal
+        Close
       </button>
     </section>
   );

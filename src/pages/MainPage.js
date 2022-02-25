@@ -1,4 +1,3 @@
-import React from "react";
 import LargeContainer from "../components/LargeContainer";
 import Wrapper from "../components/Wrapper";
 import Banner from "../components/Banner";

@@ -38,6 +38,9 @@ function Header() {
             </li>
           </ul>
         </nav>
+        {theClassName === "modified" && (
+          <div onClick={activateDirectory} className="close-modal"></div>
+        )}
 
         <nav className={theClassName}>
           <ul id="nav-list">
