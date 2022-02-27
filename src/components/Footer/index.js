@@ -19,7 +19,7 @@ function Footer() {
         <article id="contact-form-holder" data-aos="fade-up">
           <ContactForm />
         </article>
-        <nav id="contact-details" data-aos="fade-up">
+        <nav id="contact-details" data-aos="fade-down">
           <ul>
             <li>
               <p>DanielChrisMoore@gmail.com</p>

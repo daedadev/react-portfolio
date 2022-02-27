@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import Carousel from "react-elastic-carousel";
 
 function Banner() {
+  const [intro, setIntro] = useState("animation-main");
+
+  function startAnimation() {
+    setIntro("banner");
+  }
+
+  useEffect(() => {
+    startAnimation();
+  }, []);
+
   return (
-    <div className="banner">
+    <div className={intro}>
       <div id="text-holder">
         <h1>
           My Name is <strong>Daniel</strong>
@@ -30,7 +40,7 @@ function Banner() {
           </Carousel>
         </div>
 
-        <a id="down-arrow" href="/#aboutme-section" data-aos="fade-left">
+        <a id="down-arrow" href="/#aboutme-section">
           {" "}
           &or;
         </a>
