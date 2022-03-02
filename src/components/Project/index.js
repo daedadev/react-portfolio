@@ -35,7 +35,9 @@ function Project({
           )
         }
       >
-        <p className="text-p">{title}</p>
+        <div>
+          <p className="text-p">{title}</p>
+        </div>
       </button>
     </>
   );
