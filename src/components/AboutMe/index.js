@@ -32,6 +32,7 @@ function AboutMe() {
               <li className="skills-back-end">MySQL</li>
               <li className="skills-back-end">MongoDB</li>
               <li className="skills-back-end">GraphQL</li>
+              <li className="skills-back-end">Firebase</li>
             </ul>
           </div>
         </article>
