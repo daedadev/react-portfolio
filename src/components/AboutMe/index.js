@@ -19,20 +19,65 @@ function AboutMe() {
           <div className="skills-list" data-aos="fade-right">
             <h1>Front-End</h1>
             <ul>
-              <li className="skills-front-end">HTML</li>
-              <li className="skills-front-end">CSS</li>
-              <li className="skills-front-end">React</li>
-              <li className="skills-front-end">Handlebars</li>
+              <li className="skills-front-end">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />{" "}
+                <div>
+                  <h1>HTML</h1>
+                </div>
+              </li>
+              <li className="skills-front-end">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" />{" "}
+                <div>
+                  <h1>CSS</h1>
+                </div>
+              </li>
+              <li className="skills-front-end">
+                <img src="https://img.icons8.com/officel/80/000000/react.png" />
+                <div>
+                  <h1>React</h1>
+                </div>
+              </li>
+              <li className="skills-front-end">
+                <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"></img>
+                <div>
+                  <h1>NEXT</h1>
+                </div>
+              </li>
             </ul>
           </div>
           <div className="skills-list" data-aos="fade-left">
             <h1>Back-End</h1>
             <ul>
-              <li className="skills-back-end">Javascript</li>
-              <li className="skills-back-end">MySQL</li>
-              <li className="skills-back-end">MongoDB</li>
-              <li className="skills-back-end">GraphQL</li>
-              <li className="skills-back-end">Firebase</li>
+              <li className="skills-back-end">
+                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png" />
+                <div>
+                  <h1>Javascript</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />{" "}
+                <div>
+                  <h1>MySQL</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img src="https://img.icons8.com/color/48/000000/mongodb.png" />{" "}
+                <div>
+                  <h1>MongoDB</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img src="https://img.icons8.com/color/48/000000/graphql.png" />{" "}
+                <div>
+                  <h1>GraphQL</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img src="https://img.icons8.com/color/48/000000/firebase.png" />{" "}
+                <div>
+                  <h1>Firebase</h1>
+                </div>
+              </li>
             </ul>
           </div>
         </article>
@@ -43,16 +88,15 @@ function AboutMe() {
         </article>
         <article className="paragraph">
           <p>
-            My name is Daniel Moore and I am a 24 year old programmer who is
-            <strong> always looking to dive deeper into tech.</strong> I have
-            experience with coding through 2 years of using Unity to develop
-            video games for mobile devices. I also have experience working with
-            google chrome extensions and made projects using electron. My skills
-            include{" "}
-            <strong>
-              working knowledge of React MySQL mongoDB and local web storage,
-              alongside utilizing and creating API's.
-            </strong>{" "}
+            My name is Daniel Moore and I am software developer who is always
+            <strong> looking to dive deeper into tech.</strong> I have
+            experience using React to develop web applications to create
+            <strong>responsive front-end pages.</strong> I also have experience
+            working with MySQL and MongoDB to create{" "}
+            <strong>scalable back-end frameworks</strong> coupled with
+            express.js. These skills along with my knowledge of API creation and
+            utilization make me a{" "}
+            <strong>valuable asset to any fullstack team.</strong>
           </p>
           <img
             src={`${process.env.PUBLIC_URL + "images/ProfilePicture.jpeg"}`}

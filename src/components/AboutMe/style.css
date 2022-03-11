@@ -110,8 +110,36 @@ p {
   width: 100%;
 }
 
+#skills-bottom img {
+  width: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#skills-bottom img:hover + div {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding: 10px;
+  text-align: right;
+  font-size: 24px;
+  left: -105px;
+  background-color: #4c5364;
+  border-radius: 10px;
+  opacity: 1;
+  transition: 0.2s;
+}
+
 #skills-bottom h1 {
   font-size: 24px;
+}
+
+#skills-bottom li div {
+  display: hidden;
+  position: absolute;
+  opacity: 0;
 }
 
 .skills-list {
@@ -123,12 +151,16 @@ p {
 
 .skills-list li {
   color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   font-size: 24px;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   text-align: center;
+  height: 40px;
 }
 
 .skills-front-end {
@@ -136,7 +168,7 @@ p {
 }
 
 .skills-back-end {
-  background-color: orange;
+  background-color: rgb(177, 177, 177);
 }
 
 @media screen and (max-width: 1800px) {
