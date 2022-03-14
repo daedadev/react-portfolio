@@ -20,25 +20,37 @@ function AboutMe() {
             <h1>Front-End</h1>
             <ul>
               <li className="skills-front-end">
-                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />{" "}
+                <img
+                  alt="HTML logo"
+                  src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                />
                 <div>
                   <h1>HTML</h1>
                 </div>
               </li>
               <li className="skills-front-end">
-                <img src="https://img.icons8.com/color/48/000000/css3.png" />{" "}
+                <img
+                  alt="Cascading Style Sheets logo"
+                  src="https://img.icons8.com/color/48/000000/css3.png"
+                />
                 <div>
                   <h1>CSS</h1>
                 </div>
               </li>
               <li className="skills-front-end">
-                <img src="https://img.icons8.com/officel/80/000000/react.png" />
+                <img
+                  alt="React javascript logo"
+                  src="https://img.icons8.com/officel/80/000000/react.png"
+                />
                 <div>
                   <h1>React</h1>
                 </div>
               </li>
               <li className="skills-front-end">
-                <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"></img>
+                <img
+                  alt="Next javascript logo"
+                  src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+                />
                 <div>
                   <h1>NEXT</h1>
                 </div>
@@ -49,31 +61,46 @@ function AboutMe() {
             <h1>Back-End</h1>
             <ul>
               <li className="skills-back-end">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png" />
+                <img
+                  alt="Javascript logo"
+                  src="https://img.icons8.com/ios/50/000000/javascript--v1.png"
+                />
                 <div>
                   <h1>Javascript</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />{" "}
+                <img
+                  alt="MySQL logo"
+                  src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+                />
                 <div>
                   <h1>MySQL</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img src="https://img.icons8.com/color/48/000000/mongodb.png" />{" "}
+                <img
+                  alt="MongoDB logo"
+                  src="https://img.icons8.com/color/48/000000/mongodb.png"
+                />
                 <div>
                   <h1>MongoDB</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img src="https://img.icons8.com/color/48/000000/graphql.png" />{" "}
+                <img
+                  alt="GraphQL logo"
+                  src="https://img.icons8.com/color/48/000000/graphql.png"
+                />
                 <div>
                   <h1>GraphQL</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img src="https://img.icons8.com/color/48/000000/firebase.png" />{" "}
+                <img
+                  alt="Firebase logo"
+                  src="https://img.icons8.com/color/48/000000/firebase.png"
+                />
                 <div>
                   <h1>Firebase</h1>
                 </div>

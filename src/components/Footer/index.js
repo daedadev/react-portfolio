@@ -15,18 +15,18 @@ function Footer() {
           <h1 data-aos="zoom-out">Contact Me</h1>
         </article>
       </section>
-      <section id="footer-bottom" data-aos="fade-down">
-        <article id="contact-form-holder" data-aos="fade-up">
+      <section id="footer-bottom">
+        <article id="contact-form-holder">
           <ContactForm />
         </article>
-        <nav id="contact-details" data-aos="fade-down">
+        <nav id="contact-details">
           <ul>
             <li>
               <p>DanielChrisMoore@gmail.com</p>
             </li>
             <li>
               <a
-                href="https://github.com/wron1"
+                href="https://github.com/daedadev"
                 target="_blank"
                 rel="noreferrer noopener"
               >
