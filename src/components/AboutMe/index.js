@@ -130,7 +130,7 @@ function AboutMe() {
             My name is Daniel Moore and I am software developer who is always
             <strong> looking to dive deeper into tech.</strong> I have
             experience using React to develop web applications to create
-            <strong>responsive front-end pages.</strong> I also have experience
+            <strong> responsive front-end pages.</strong> I also have experience
             working with MySQL and MongoDB to create{" "}
             <strong>scalable back-end frameworks</strong> coupled with
             express.js. These skills along with my knowledge of API creation and
