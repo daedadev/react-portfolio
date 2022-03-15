@@ -1,20 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./style.css";
 import Carousel from "react-elastic-carousel";
 
 function Banner() {
-  const [intro, setIntro] = useState("animation-main");
-
-  function startAnimation() {
-    setIntro("banner");
-  }
-
-  useEffect(() => {
-    startAnimation();
-  }, []);
-
   return (
-    <div className={intro}>
+    <div className={"banner"}>
       <div id="text-holder">
         <h1>
           My Name is <strong>Daniel</strong>

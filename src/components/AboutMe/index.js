@@ -9,14 +9,20 @@ function AboutMe() {
   }, []);
 
   return (
-    <section id="about-me" data-aos="fade-up">
+    <section id="about-me" data-aos="fade-up" data-aos-once="true">
       <section id="skills">
         <article id="skills-top">
-          <h1 data-aos="zoom-out">Skills</h1>
+          <h1 data-aos="zoom-out" data-aos-once="true">
+            Skills
+          </h1>
         </article>
 
         <article id="skills-bottom">
-          <div className="skills-list" data-aos="fade-right">
+          <div
+            className="skills-list"
+            data-aos="fade-right"
+            data-aos-once="true"
+          >
             <h1>Front-End</h1>
             <ul>
               <li className="skills-front-end">
@@ -57,7 +63,11 @@ function AboutMe() {
               </li>
             </ul>
           </div>
-          <div className="skills-list" data-aos="fade-left">
+          <div
+            className="skills-list"
+            data-aos="fade-left"
+            data-aos-once="true"
+          >
             <h1>Back-End</h1>
             <ul>
               <li className="skills-back-end">
@@ -111,7 +121,9 @@ function AboutMe() {
       </section>
       <article id="aboutme-right">
         <article id="aboutme-top">
-          <h1 data-aos="zoom-out">About Me</h1>
+          <h1 data-aos="zoom-out" data-aos-once="true">
+            About Me
+          </h1>
         </article>
         <article className="paragraph">
           <p>

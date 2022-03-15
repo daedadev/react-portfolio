@@ -12,7 +12,9 @@ function Footer() {
     <footer id="footer">
       <section id="footer-top">
         <article id="contact-text">
-          <h1 data-aos="zoom-out">Contact Me</h1>
+          <h1 data-aos="zoom-out" data-aos-once="true">
+            Contact Me
+          </h1>
         </article>
       </section>
       <section id="footer-bottom">

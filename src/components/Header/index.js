@@ -36,9 +36,6 @@ function Header() {
             <li>
               <Link to={"/resume"}>Resume</Link>
             </li>
-            <li>
-              <a href={"https://daedadev-blog.vercel.app/"}>Blog</a>
-            </li>
           </ul>
         </nav>
         {theClassName === "modified" && (
@@ -58,9 +55,6 @@ function Header() {
             </li>
             <li>
               <Link to={"/resume"}>Resume</Link>
-            </li>
-            <li>
-              <a href={"https://daedadev-blog.vercel.app/"}>Blog</a>
             </li>
           </ul>
           <ul id="nav-image-list">

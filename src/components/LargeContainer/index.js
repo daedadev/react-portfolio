@@ -58,7 +58,9 @@ function LargeContainer() {
       <section id="work">
         <section id="project-title">
           <div id="work-section"></div>
-          <h1 data-aos="zoom-out">Projects</h1>
+          <h1 data-aos="zoom-out" data-aos-once="true">
+            Projects
+          </h1>
         </section>
         {showProject === "large-cell" && (
           <div
@@ -67,10 +69,14 @@ function LargeContainer() {
           ></div>
         )}
 
-        <section className="projects-main" data-aos="fade-left">
+        <section
+          className="projects-main"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <Project
-            liveApp={"https://web-sneaker-app.herokuapp.com/"}
-            githubApp={"https://github.com/wron1/upper-level-kicks"}
+            liveApp={"https://upperlevelkicks.net/"}
+            githubApp={"https://github.com/daedadev/upper-level-kicks"}
             title={"Upper Level Kicks"}
             image={`url(${process.env.PUBLIC_URL + "/images/UpperLevel3.PNG"})`}
             classy={"large-work"}
@@ -93,8 +99,35 @@ function LargeContainer() {
             openModal={setModal}
           />
           <Project
+            liveApp={"https://daedadev-blog.vercel.app/"}
+            githubApp={"https://github.com/daedadev/Daedadev-Blog"}
+            title={"Personal Blog"}
+            image={`url(${process.env.PUBLIC_URL + "/images/Blog.PNG"})`}
+            classy={"small-work"}
+            info={
+              "This is a personal blog where I post about current projects as well as try and discuss anything I come across that I feel I could shed some light on in the tech world."
+            }
+            challenges={
+              "Honestly at this point in my development journey the styling more than anything was a big challenge. Having to knock my brain against TailwindCSS was a big hurdle. Also finding documentation on highlighting markdown was a huge challenge."
+            }
+            triumphs={
+              "I was able to create a statically generated web page with Next.js and TailwindCSS. I learned a lot about SEO and how much server-side rendering is necessary. Without Next it wouldnt be possible."
+            }
+            dependancies={[
+              "Javascript",
+              "Next.js",
+              "TailwindCSS",
+              "Vercel",
+              "HTML",
+              "Gray-Matter",
+              "Highlight.js",
+            ]}
+            video={""}
+            openModal={setModal}
+          />
+          <Project
             liveApp={"https://reactappbooksearch.herokuapp.com/"}
-            githubApp={"https://github.com/wron1/google-book-search"}
+            githubApp={"https://github.com/daedadev/google-book-search"}
             title={"Google Book Search"}
             image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
             classy={"small-work"}
@@ -111,34 +144,8 @@ function LargeContainer() {
           />
 
           <Project
-            liveApp={"https://desolate-spire-45416.herokuapp.com/"}
-            githubApp={"https://github.com/wron1/tech-blog"}
-            title={"Tech Blog"}
-            image={`url(${process.env.PUBLIC_URL + "/images/techblog.PNG"})`}
-            classy={"small-work"}
-            info={
-              "This project focuses on the use of sequelize and node.js to create a forum in which you can have an account, make posts and make comments on posts. There is a heavy focus on Handlebars as well as sequelize relationships. Handlebars was extremely helpful for keeping the styling fairly simple as well as simplifying the data transfer process between pages. This project was an extremely long one with many different problems to tackle. Even now there is some refinement to be added. The application is currently deployed live on Heroku utilizing JAWS_DB."
-            }
-            challenges={
-              "Handling the login and logout functions at first was a bit of a challenge. Setting up the relational database was also a bit of a learning curve as well."
-            }
-            triumphs={
-              "Successfully implemented logins and support of multiple users in a mock tech-blog application. Allows for commenting on other users posts and posting under your own username. Handlebars makes for easy use single page creation similar to react."
-            }
-            dependancies={[
-              "Javascript",
-              "Node",
-              "Handlebars",
-              "Sequelize",
-              "Heroku",
-            ]}
-            video={"https://youtu.be/zV4plFiY0eU"}
-            openModal={setModal}
-          />
-
-          <Project
             liveApp={"https://wron1.github.io/pokemon-tracker/"}
-            githubApp={"https://github.com/wron1/pokemon-tracker"}
+            githubApp={"https://github.com/daedadev/pokemon-tracker"}
             title={"Pokemon Card Tracker"}
             image={`url(${process.env.PUBLIC_URL + "/images/pokemon.PNG"})`}
             classy={"small-work"}
@@ -177,6 +184,32 @@ function LargeContainer() {
             }
             dependancies={["Javascript", "MySQL", "Sequelize", "HTML"]}
             video={"https://youtu.be/nwrqRrjI7Pc"}
+            openModal={setModal}
+          /> */}
+
+          {/* <Project
+            liveApp={"https://desolate-spire-45416.herokuapp.com/"}
+            githubApp={"https://github.com/wron1/tech-blog"}
+            title={"Tech Blog"}
+            image={`url(${process.env.PUBLIC_URL + "/images/techblog.PNG"})`}
+            classy={"small-work"}
+            info={
+              "This project focuses on the use of sequelize and node.js to create a forum in which you can have an account, make posts and make comments on posts. There is a heavy focus on Handlebars as well as sequelize relationships. Handlebars was extremely helpful for keeping the styling fairly simple as well as simplifying the data transfer process between pages. This project was an extremely long one with many different problems to tackle. Even now there is some refinement to be added. The application is currently deployed live on Heroku utilizing JAWS_DB."
+            }
+            challenges={
+              "Handling the login and logout functions at first was a bit of a challenge. Setting up the relational database was also a bit of a learning curve as well."
+            }
+            triumphs={
+              "Successfully implemented logins and support of multiple users in a mock tech-blog application. Allows for commenting on other users posts and posting under your own username. Handlebars makes for easy use single page creation similar to react."
+            }
+            dependancies={[
+              "Javascript",
+              "Node",
+              "Handlebars",
+              "Sequelize",
+              "Heroku",
+            ]}
+            video={"https://youtu.be/zV4plFiY0eU"}
             openModal={setModal}
           /> */}
 

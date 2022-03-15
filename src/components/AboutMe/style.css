@@ -164,11 +164,9 @@ p {
 }
 
 .skills-front-end {
-  background-color: rgb(150, 150, 150);
 }
 
 .skills-back-end {
-  background-color: rgb(177, 177, 177);
 }
 
 @media screen and (max-width: 1800px) {
