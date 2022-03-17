@@ -34,7 +34,7 @@ function ProjectInfo({
 
   return (
     <section className={showProject}>
-      <span id="mobile-jump"></span>
+      <span id="project-info" className="mobile-jump"></span>
       <section id="title-cell">
         <h2>{title}</h2>
         <button id="modal-button" onClick={() => toggleModal("display-off")}>

@@ -33,7 +33,7 @@ function LargeContainer() {
     dependancies,
     video
   ) {
-    window.location.href = "/#mobile-jump";
+    window.location.href = "/#project-info";
 
     setLiveApp(liveApp);
     setGithubApp(githubApp);
@@ -122,7 +122,7 @@ function LargeContainer() {
               "Gray-Matter",
               "Highlight.js",
             ]}
-            video={""}
+            video={"https://youtu.be/EM7jGBTUW_M"}
             openModal={setModal}
           />
           <Project
@@ -139,7 +139,7 @@ function LargeContainer() {
               "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
-            video={"https://youtu.be/EY7OpUQH-wI"}
+            video={"https://youtu.be/x_acOZ1RJS0"}
             openModal={setModal}
           />
 
@@ -159,7 +159,7 @@ function LargeContainer() {
               "We successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I personally became extremely comfortable with APIs after this project."
             }
             dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
-            video={"https://youtu.be/cDrZ24a-tKk"}
+            video={"https://youtu.be/IgVzbme_6zc"}
             openModal={setModal}
           />
 

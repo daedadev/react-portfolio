@@ -30,7 +30,7 @@ function AboutMe() {
                   alt="HTML logo"
                   src="https://img.icons8.com/color/48/000000/html-5--v1.png"
                 />
-                <div>
+                <div className="front-tooltip">
                   <h1>HTML</h1>
                 </div>
               </li>
@@ -39,7 +39,7 @@ function AboutMe() {
                   alt="Cascading Style Sheets logo"
                   src="https://img.icons8.com/color/48/000000/css3.png"
                 />
-                <div>
+                <div className="front-tooltip">
                   <h1>CSS</h1>
                 </div>
               </li>
@@ -48,7 +48,7 @@ function AboutMe() {
                   alt="React javascript logo"
                   src="https://img.icons8.com/officel/80/000000/react.png"
                 />
-                <div>
+                <div className="front-tooltip">
                   <h1>React</h1>
                 </div>
               </li>
@@ -57,7 +57,7 @@ function AboutMe() {
                   alt="Next javascript logo"
                   src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
                 />
-                <div>
+                <div className="front-tooltip">
                   <h1>NEXT</h1>
                 </div>
               </li>
@@ -75,7 +75,7 @@ function AboutMe() {
                   alt="Javascript logo"
                   src="https://img.icons8.com/ios/50/000000/javascript--v1.png"
                 />
-                <div>
+                <div className="back-tooltip">
                   <h1>Javascript</h1>
                 </div>
               </li>
@@ -84,7 +84,7 @@ function AboutMe() {
                   alt="MySQL logo"
                   src="https://img.icons8.com/color/48/000000/mysql-logo.png"
                 />
-                <div>
+                <div className="back-tooltip">
                   <h1>MySQL</h1>
                 </div>
               </li>
@@ -93,7 +93,7 @@ function AboutMe() {
                   alt="MongoDB logo"
                   src="https://img.icons8.com/color/48/000000/mongodb.png"
                 />
-                <div>
+                <div className="back-tooltip">
                   <h1>MongoDB</h1>
                 </div>
               </li>
@@ -102,7 +102,7 @@ function AboutMe() {
                   alt="GraphQL logo"
                   src="https://img.icons8.com/color/48/000000/graphql.png"
                 />
-                <div>
+                <div className="back-tooltip">
                   <h1>GraphQL</h1>
                 </div>
               </li>
@@ -111,7 +111,7 @@ function AboutMe() {
                   alt="Firebase logo"
                   src="https://img.icons8.com/color/48/000000/firebase.png"
                 />
-                <div>
+                <div className="back-tooltip">
                   <h1>Firebase</h1>
                 </div>
               </li>

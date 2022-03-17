@@ -92,21 +92,3 @@ h1 {
 
 /* @media screen and (max-width: 480px) {
 } */
-
-#github:hover {
-  border-color: orange;
-  background-color: rgb(255, 193, 78);
-  font-size: 20px;
-}
-
-#liveApp:hover {
-  border-color: blue;
-  background-color: rgb(91, 91, 253);
-  font-size: 20px;
-}
-
-#videoDemo:hover {
-  border-color: green;
-  background-color: rgb(79, 158, 79);
-  font-size: 20px;
-}
