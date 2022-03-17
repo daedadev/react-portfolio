@@ -79,6 +79,27 @@ p {
   align-items: center;
 }
 
+#contact-button {
+  background-color: rgb(57, 65, 94);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 4px;
+  border-color: rgb(186, 197, 207);
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#contact-button:hover {
+  border-color: aliceblue;
+  color: rgb(255, 255, 255);
+  background-color: rgb(35, 42, 66);
+}
+
 #skills {
   display: flex;
   flex-direction: column;

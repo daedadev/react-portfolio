@@ -128,14 +128,10 @@ function AboutMe() {
         <article className="paragraph">
           <p>
             My name is Daniel Moore and I am software developer who is always
-            <strong> looking to dive deeper into tech.</strong> I have
-            experience using React to develop web applications to create
-            <strong> responsive front-end pages.</strong> I also have experience
-            working with MySQL and MongoDB to create{" "}
-            <strong>scalable back-end frameworks</strong> coupled with
-            express.js. These skills along with my knowledge of API creation and
-            utilization make me a{" "}
-            <strong>valuable asset to any fullstack team.</strong>
+            <strong> looking to dive deeper into tech.</strong> creating
+            responsive and scalable frontends with react is my favorite thing to
+            do. While creating intricate backends with node and Sequelize is
+            what comes natural to me.
           </p>
           <img
             src={`${process.env.PUBLIC_URL + "images/ProfilePicture.jpeg"}`}
@@ -145,18 +141,18 @@ function AboutMe() {
         </article>
         <article className="paragraph">
           <p>
-            Amongst my most polished skills are team work and fast learning. The
-            larger projects below are displaying that knowledge while the
-            smaller works are some of my personal accomplishments. I am eager to
-            learn and contribute my skills day after day.{" "}
-            <strong>
-              My adaptability and flexible personality make me invaluable to any
-              team.
-            </strong>{" "}
-            Thank you for your time and contact me down below with any
-            questions.
+            While coding is where my mind is I will always be a musician at
+            heart. If there irs anything I have taken from the professional
+            music world It's that to succeed you can't be afraid of failure.
+            With persistance comes sustain and
+            <strong> perfect practice makes perfect. </strong>
+            Contact me down below so we can get in touch. I would love to work
+            with you.
           </p>
         </article>
+        <a id="contact-button" href="/#footer">
+          Contact Me
+        </a>
       </article>
     </section>
   );
