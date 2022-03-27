@@ -53,6 +53,7 @@
 #modal-button:hover {
   background-color: aliceblue;
   border-color: aliceblue;
+  cursor: pointer;
 }
 
 #modal-button:active {

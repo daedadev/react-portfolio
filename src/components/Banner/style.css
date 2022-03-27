@@ -91,11 +91,7 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-left: 30px;
   margin-top: 40%;
-}
-
-#down-arrow:hover {
 }
 
 .rec.rec-carousel-wrapper {
@@ -131,14 +127,9 @@
   .banner {
     padding-top: 120px;
   }
-  h1 {
-  }
 }
 
 @media screen and (max-width: 2302px) {
-  h1 {
-  }
-
   #text-holder {
     display: flex;
     flex-direction: column;
@@ -150,9 +141,6 @@
 }
 
 @media screen and (max-width: 1700px) {
-  h1 {
-  }
-
   .banner {
     display: flex;
     background-size: auto 100vh;
@@ -169,9 +157,6 @@
 }
 
 @media screen and (max-width: 992px) {
-  h1 {
-  }
-
   .banner {
     display: flex;
     background-size: auto 100vh;
@@ -205,7 +190,10 @@
   }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 300px) {
   #text-holder {
     display: flex;
     flex-direction: column;
@@ -214,9 +202,7 @@
     padding-bottom: 20px;
     width: 80%;
   }
-  #down-arrow {
-    margin-top: 10%;
-  }
+
   .banner {
     padding-top: 20px;
   }
