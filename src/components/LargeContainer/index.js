@@ -75,11 +75,34 @@ function LargeContainer() {
           data-aos-once="true"
         >
           <Project
+            liveApp={"https://react-shop-cms.herokuapp.com/"}
+            githubApp={"https://github.com/daedadev/Shop-CMS"}
+            title={"Shop Management System"}
+            image={`url(${process.env.PUBLIC_URL + "/images/HomePage.PNG"})`}
+            classy={"large-work"}
+            info={`This project serves as a backend to a small shop. This program being software to manage content you can view and edit your inventory, view users from your store, see orders and mark them as fulfilled, and see different helpful statistics to visualize your websites growth.`}
+            challenges={
+              "The biggest challenge was documenting and finally thinking like an engineer. Creating software is difficult, but creating useable software has been a nightmare."
+            }
+            triumphs={
+              "Creating a scalable API coupled with a functional UI was my biggest achievement during this project."
+            }
+            dependancies={[
+              "Javascript",
+              "React",
+              "Node.js",
+              "MySQL",
+              "TailwindCSS",
+            ]}
+            video={"https://youtu.be/HsP0xBh89V8"}
+            openModal={setModal}
+          />
+          <Project
             liveApp={"https://upperlevelkicks.net/"}
             githubApp={"https://github.com/daedadev/upper-level-kicks"}
             title={"Upper Level Kicks"}
             image={`url(${process.env.PUBLIC_URL + "/images/UpperLevel3.PNG"})`}
-            classy={"large-work"}
+            classy={"small-work"}
             info={`This is a personal pet project of mine that utilizes the Sneaks-API which contains data that has been scraped from StockX/GOAT/FlightClub into one single database. As a sneaker enthusiast myself seeing this data I challenged myself to make a website that mimicked StockX but housed a variety of prices. A hub of resell websites provided by that API.`}
             challenges={
               "Main difficulty with this project was parsing the data and mapping it in a way that is presentable and modular."
@@ -213,7 +236,7 @@ function LargeContainer() {
             openModal={setModal}
           /> */}
 
-          <Project
+          {/* <Project
             liveApp={"https://rocky-river-62832.herokuapp.com/dealer"}
             githubApp={"https://github.com/JustinBrubaker7/Dealership"}
             title={"Dealership"}
@@ -240,7 +263,7 @@ function LargeContainer() {
             ]}
             video={"https://youtu.be/C9ObVO5OhEI"}
             openModal={setModal}
-          />
+          /> */}
         </section>
         <ProjectInfo
           liveApp={liveApp}
