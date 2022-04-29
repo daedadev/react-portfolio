@@ -129,4 +129,22 @@
   .large-container {
     padding-bottom: 20px;
   }
+
+  .icon-item{
+    margin-left: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-item{
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+  }
+
+  .icon-holder{
+    margin-left: 3px;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
 }
