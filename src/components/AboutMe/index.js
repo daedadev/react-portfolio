@@ -142,9 +142,9 @@ function AboutMe() {
         <article className="paragraph">
           <p>
             While coding is where my mind is I will always be a musician at
-            heart. If there irs anything I have taken from the professional
-            music world It's that to succeed you can't be afraid of failure.
-            With persistance comes sustain and
+            heart. If there is anything I have taken from the professional music
+            world it's that to succeed you can't be afraid of failure. With
+            persistance comes sustain and
             <strong> perfect practice makes perfect. </strong>
             Contact me down below so we can get in touch. I would love to work
             with you.
