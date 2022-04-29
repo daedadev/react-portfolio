@@ -62,7 +62,7 @@ function AboutMe() {
                 </div>
               </li>
               <li className="skills-front-end">
-                <img alt="Tailwind CSS Logo" src="/images/tailwind-css.PNG" />
+                <img alt="Tailwind CSS Logo" src="/images/tailwind-css.png" />
                 <div className="front-tooltip">
                   <h1>Tailwind</h1>
                 </div>

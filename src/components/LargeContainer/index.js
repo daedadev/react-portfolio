@@ -103,7 +103,7 @@ function LargeContainer() {
                 src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
                 alt: "MySQL logo",
               },
-              { src: "/images/tailwind-css.PNG", alt: "TailwindCSS logo" },
+              { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
                 src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
                 alt: "Javascript Logo",
@@ -183,7 +183,7 @@ function LargeContainer() {
                 src: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
                 alt: "Next js logo",
               },
-              { src: "/images/tailwind-css.PNG", alt: "TailwindCSS logo" },
+              { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
                 src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
                 alt: "Javascript Logo",
