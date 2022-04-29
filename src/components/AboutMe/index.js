@@ -54,11 +54,17 @@ function AboutMe() {
               </li>
               <li className="skills-front-end">
                 <img
-                  alt="Next javascript logo"
+                  alt="Next logo"
                   src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
                 />
                 <div className="front-tooltip">
                   <h1>NEXT</h1>
+                </div>
+              </li>
+              <li className="skills-front-end">
+                <img alt="Tailwind CSS Logo" src="/images/tailwind-css.PNG" />
+                <div className="front-tooltip">
+                  <h1>Tailwind</h1>
                 </div>
               </li>
             </ul>

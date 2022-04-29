@@ -85,7 +85,7 @@ function LargeContainer() {
               "The biggest challenge was documenting and finally thinking like an engineer. Creating software is difficult, but creating useable software has been a nightmare."
             }
             triumphs={
-              "Creating a scalable API coupled with a functional UI was my biggest achievement during this project."
+              "Creating a scalable API coupled with a functional UI was my biggest achievement during this project. Documentation was also a big part of this project. I documented as much as I could when I could. The github has all of my final thoughts while my blog has my preliminary thought process."
             }
             dependancies={[
               "Javascript",
@@ -93,6 +93,21 @@ function LargeContainer() {
               "Node.js",
               "MySQL",
               "TailwindCSS",
+            ]}
+            icons={[
+              {
+                src: "https://img.icons8.com/officel/80/000000/react.png",
+                alt: "React logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                alt: "MySQL logo",
+              },
+              { src: "/images/tailwind-css.PNG", alt: "TailwindCSS logo" },
+              {
+                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
             ]}
             video={"https://youtu.be/HsP0xBh89V8"}
             openModal={setModal}
@@ -117,6 +132,24 @@ function LargeContainer() {
               "Firebase",
               "MySQL",
               "Sneaks-API",
+            ]}
+            icons={[
+              {
+                src: "https://img.icons8.com/officel/80/000000/react.png",
+                alt: "React logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                alt: "MySQL logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/firebase.png",
+                alt: "Firebase logo",
+              },
+              {
+                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
             ]}
             video={"https://youtu.be/qqO8OebHBeE"}
             openModal={setModal}
@@ -145,6 +178,17 @@ function LargeContainer() {
               "Gray-Matter",
               "Highlight.js",
             ]}
+            icons={[
+              {
+                src: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
+                alt: "Next js logo",
+              },
+              { src: "/images/tailwind-css.PNG", alt: "TailwindCSS logo" },
+              {
+                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
+            ]}
             video={"https://youtu.be/EM7jGBTUW_M"}
             openModal={setModal}
           />
@@ -162,6 +206,20 @@ function LargeContainer() {
               "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
             }
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
+            icons={[
+              {
+                src: "https://img.icons8.com/officel/80/000000/react.png",
+                alt: "React logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                alt: "MySQL logo",
+              },
+              {
+                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
+            ]}
             video={"https://youtu.be/x_acOZ1RJS0"}
             openModal={setModal}
           />
@@ -179,9 +237,19 @@ function LargeContainer() {
               "This was my first time working with API's on such a large scale and handling the huge amounts of data that come with pokemon cards was a bit overwheling. Also I was the sole backend developer on this project."
             }
             triumphs={
-              "We successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I personally became extremely comfortable with APIs after this project."
+              "I successfully allowed for sorting pokemon, saving pokemon, and viewing all with local storage saved in the browser. I became extremely comfortable with consuming APIs after this project."
             }
             dependancies={["Javascript", "Local Storage", "TCG API", "HTML"]}
+            icons={[
+              {
+                src: "https://img.icons8.com/color/48/000000/html-5--v1.png",
+                alt: "HTML logo",
+              },
+              {
+                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
+            ]}
             video={"https://youtu.be/IgVzbme_6zc"}
             openModal={setModal}
           />

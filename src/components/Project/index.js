@@ -10,6 +10,7 @@ function Project({
   challenges,
   triumphs,
   dependancies,
+  icons,
   video,
   openModal,
 }) {
@@ -36,6 +37,18 @@ function Project({
         }
       >
         <p className="text-p">{title}</p>
+        <div className="icon-holder">
+          {icons.map((icon, index) => {
+            return (
+              <img
+                className="icon-item"
+                key={index}
+                alt={icon.alt}
+                src={icon.src}
+              ></img>
+            );
+          })}
+        </div>
       </button>
     </>
   );
