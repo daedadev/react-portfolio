@@ -149,7 +149,7 @@ p {
   left: -105px;
   border-radius: 10px;
   opacity: 1;
-  transition: 0.2s;
+  border-width: 0;
 }
 
 #skills-bottom h1 {
@@ -157,7 +157,7 @@ p {
 }
 
 #skills-bottom li div {
-  display: hidden;
+  display: none;
   position: absolute;
   opacity: 0;
 }
@@ -183,12 +183,8 @@ p {
   height: 40px;
 }
 
-.front-tooltip {
-  background-color: green;
-}
-
-.back-tooltip {
-  background-color: orange;
+.tooltip {
+  background-color: rgb(58, 58, 58);
 }
 
 @media screen and (max-width: 1800px) {
@@ -234,6 +230,11 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
+  #languages {
+    display: none;
+  }
+
   #aboutme-right {
     display: flex;
     align-items: center;

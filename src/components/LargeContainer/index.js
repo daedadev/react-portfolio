@@ -105,7 +105,7 @@ function LargeContainer() {
               },
               { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
-                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -147,7 +147,7 @@ function LargeContainer() {
                 alt: "Firebase logo",
               },
               {
-                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -185,7 +185,7 @@ function LargeContainer() {
               },
               { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
-                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -216,7 +216,7 @@ function LargeContainer() {
                 alt: "MySQL logo",
               },
               {
-                src: "https://img.icons8.com/ios/50/000000/javascript--v1.png",
+                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -225,6 +225,40 @@ function LargeContainer() {
           />
 
           <Project
+            liveApp={"https://daedadev.github.io/Chipotle-Meal/"}
+            githubApp={"https://github.com/daedadev/Chipotle-Meal"}
+            title={"Chipotle Meal Generator"}
+            image={`url(${process.env.PUBLIC_URL + "/images/chipotle.PNG"})`}
+            classy={"small-work"}
+            info={
+              "This project was designed to make the hard choices for you. Everyone has gone to Chipotle and not had any idea of what to order. This app takes the heavy weight of deciding off of your shoulders."
+            }
+            challenges={
+              "This project was a part of a technical challenge and was developed over the course of 2 days."
+            }
+            triumphs={
+              "I successfully created an application that generates an order randomly from Chipotle and presented it in a way that resembles the Chipotle website."
+            }
+            dependancies={["React", "Vite", "TailwindCSS", "Typescript"]}
+            icons={[
+              {
+                src: "https://img.icons8.com/officel/80/000000/react.png",
+                alt: "React Logo",
+              },
+              {
+                src: "/images/tailwind-css.png",
+                alt: "TailwindCSS Logo",
+              },
+              {
+                src: "https://img.icons8.com/color/80/000000/typescript.png",
+                alt: "Typescript Logo",
+              },
+            ]}
+            video={""}
+            openModal={setModal}
+          />
+
+          {/* <Project
             liveApp={"https://wron1.github.io/pokemon-tracker/"}
             githubApp={"https://github.com/daedadev/pokemon-tracker"}
             title={"Pokemon Card Tracker"}
@@ -252,7 +286,7 @@ function LargeContainer() {
             ]}
             video={"https://youtu.be/IgVzbme_6zc"}
             openModal={setModal}
-          />
+          /> */}
 
           {/* <Project
             liveApp={

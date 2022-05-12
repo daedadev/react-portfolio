@@ -27,28 +27,10 @@ function AboutMe() {
             <ul>
               <li className="skills-front-end">
                 <img
-                  alt="HTML logo"
-                  src="https://img.icons8.com/color/48/000000/html-5--v1.png"
-                />
-                <div className="front-tooltip">
-                  <h1>HTML</h1>
-                </div>
-              </li>
-              <li className="skills-front-end">
-                <img
-                  alt="Cascading Style Sheets logo"
-                  src="https://img.icons8.com/color/48/000000/css3.png"
-                />
-                <div className="front-tooltip">
-                  <h1>CSS</h1>
-                </div>
-              </li>
-              <li className="skills-front-end">
-                <img
                   alt="React javascript logo"
                   src="https://img.icons8.com/officel/80/000000/react.png"
                 />
-                <div className="front-tooltip">
+                <div className="tooltip">
                   <h1>React</h1>
                 </div>
               </li>
@@ -57,13 +39,13 @@ function AboutMe() {
                   alt="Next logo"
                   src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
                 />
-                <div className="front-tooltip">
+                <div className="tooltip">
                   <h1>NEXT</h1>
                 </div>
               </li>
               <li className="skills-front-end">
                 <img alt="Tailwind CSS Logo" src="/images/tailwind-css.png" />
-                <div className="front-tooltip">
+                <div className="tooltip">
                   <h1>Tailwind</h1>
                 </div>
               </li>
@@ -78,19 +60,10 @@ function AboutMe() {
             <ul>
               <li className="skills-back-end">
                 <img
-                  alt="Javascript logo"
-                  src="https://img.icons8.com/ios/50/000000/javascript--v1.png"
-                />
-                <div className="back-tooltip">
-                  <h1>Javascript</h1>
-                </div>
-              </li>
-              <li className="skills-back-end">
-                <img
                   alt="MySQL logo"
                   src="https://img.icons8.com/color/48/000000/mysql-logo.png"
                 />
-                <div className="back-tooltip">
+                <div className="tooltip">
                   <h1>MySQL</h1>
                 </div>
               </li>
@@ -99,7 +72,7 @@ function AboutMe() {
                   alt="MongoDB logo"
                   src="https://img.icons8.com/color/48/000000/mongodb.png"
                 />
-                <div className="back-tooltip">
+                <div className="tooltip">
                   <h1>MongoDB</h1>
                 </div>
               </li>
@@ -108,7 +81,7 @@ function AboutMe() {
                   alt="GraphQL logo"
                   src="https://img.icons8.com/color/48/000000/graphql.png"
                 />
-                <div className="back-tooltip">
+                <div className="tooltip">
                   <h1>GraphQL</h1>
                 </div>
               </li>
@@ -117,8 +90,42 @@ function AboutMe() {
                   alt="Firebase logo"
                   src="https://img.icons8.com/color/48/000000/firebase.png"
                 />
-                <div className="back-tooltip">
+                <div className="tooltip">
                   <h1>Firebase</h1>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="skills-list"
+            id="languages"
+            data-aos="fade-left"
+            data-aos-once="true"
+          >
+            <h1>Languages</h1>
+            <ul>
+              <li className="skills-front-end">
+                <img
+                  alt="Typescript logo"
+                  src="https://img.icons8.com/color/80/000000/typescript.png"
+                />
+                <div className="tooltip">
+                  <h1>Typescript</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img
+                  alt="Javascript"
+                  src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                />
+                <div className="tooltip">
+                  <h1>Javascript</h1>
+                </div>
+              </li>
+              <li className="skills-back-end">
+                <img alt="Elixir logo" src="/images/elixir.png" />
+                <div className="tooltip">
+                  <h1>Elixir</h1>
                 </div>
               </li>
             </ul>
