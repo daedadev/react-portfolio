@@ -192,37 +192,6 @@ function LargeContainer() {
             video={"https://youtu.be/EM7jGBTUW_M"}
             openModal={setModal}
           />
-          <Project
-            liveApp={"https://reactappbooksearch.herokuapp.com/"}
-            githubApp={"https://github.com/daedadev/google-book-search"}
-            title={"Google Book Search"}
-            image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
-            classy={"small-work"}
-            info={`This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`}
-            challenges={
-              "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
-            }
-            triumphs={
-              "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
-            }
-            dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
-            icons={[
-              {
-                src: "https://img.icons8.com/officel/80/000000/react.png",
-                alt: "React logo",
-              },
-              {
-                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
-                alt: "MySQL logo",
-              },
-              {
-                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
-                alt: "Javascript Logo",
-              },
-            ]}
-            video={"https://youtu.be/x_acOZ1RJS0"}
-            openModal={setModal}
-          />
 
           <Project
             liveApp={"https://daedadev.github.io/Chipotle-Meal/"}
@@ -255,6 +224,38 @@ function LargeContainer() {
               },
             ]}
             video={""}
+            openModal={setModal}
+          />
+
+          <Project
+            liveApp={"https://reactappbooksearch.herokuapp.com/"}
+            githubApp={"https://github.com/daedadev/google-book-search"}
+            title={"Google Book Search"}
+            image={`url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`}
+            classy={"small-work"}
+            info={`This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`}
+            challenges={
+              "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
+            }
+            triumphs={
+              "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
+            }
+            dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
+            icons={[
+              {
+                src: "https://img.icons8.com/officel/80/000000/react.png",
+                alt: "React logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                alt: "MySQL logo",
+              },
+              {
+                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                alt: "Javascript Logo",
+              },
+            ]}
+            video={"https://youtu.be/x_acOZ1RJS0"}
             openModal={setModal}
           />
 
