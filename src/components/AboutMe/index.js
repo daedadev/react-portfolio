@@ -28,23 +28,23 @@ function AboutMe() {
               <li className="skills-front-end">
                 <img
                   alt="React javascript logo"
-                  src="https://img.icons8.com/officel/80/000000/react.png"
+                  src="/images/icons/react.png"
                 />
                 <div className="tooltip">
                   <h1>React</h1>
                 </div>
               </li>
               <li className="skills-front-end">
-                <img
-                  alt="Next logo"
-                  src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
-                />
+                <img alt="Next logo" src="/images/icons/nextjs.png" />
                 <div className="tooltip">
                   <h1>NEXT</h1>
                 </div>
               </li>
               <li className="skills-front-end">
-                <img alt="Tailwind CSS Logo" src="/images/tailwind-css.png" />
+                <img
+                  alt="Tailwind CSS Logo"
+                  src="/images/icons/tailwind-css.png"
+                />
                 <div className="tooltip">
                   <h1>Tailwind</h1>
                 </div>
@@ -59,37 +59,25 @@ function AboutMe() {
             <h1>Back-End</h1>
             <ul>
               <li className="skills-back-end">
-                <img
-                  alt="MySQL logo"
-                  src="https://img.icons8.com/color/48/000000/mysql-logo.png"
-                />
+                <img alt="MySQL logo" src="/images/icons/mysql.png" />
                 <div className="tooltip">
                   <h1>MySQL</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img
-                  alt="MongoDB logo"
-                  src="https://img.icons8.com/color/48/000000/mongodb.png"
-                />
+                <img alt="MongoDB logo" src="/images/icons/mongodb.png" />
                 <div className="tooltip">
                   <h1>MongoDB</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img
-                  alt="GraphQL logo"
-                  src="https://img.icons8.com/color/48/000000/graphql.png"
-                />
+                <img alt="GraphQL logo" src="/images/icons/graphql.png" />
                 <div className="tooltip">
                   <h1>GraphQL</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img
-                  alt="Firebase logo"
-                  src="https://img.icons8.com/color/48/000000/firebase.png"
-                />
+                <img alt="Firebase logo" src="/images/icons/firebase.png" />
                 <div className="tooltip">
                   <h1>Firebase</h1>
                 </div>
@@ -105,25 +93,19 @@ function AboutMe() {
             <h1>Languages</h1>
             <ul>
               <li className="skills-front-end">
-                <img
-                  alt="Typescript logo"
-                  src="https://img.icons8.com/color/80/000000/typescript.png"
-                />
+                <img alt="Typescript logo" src="/images/icons/typescript.png" />
                 <div className="tooltip">
                   <h1>Typescript</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img
-                  alt="Javascript"
-                  src="https://img.icons8.com/color/48/000000/javascript--v1.png"
-                />
+                <img alt="Javascript" src="/images/icons/javascript.png" />
                 <div className="tooltip">
                   <h1>Javascript</h1>
                 </div>
               </li>
               <li className="skills-back-end">
-                <img alt="Elixir logo" src="/images/elixir.png" />
+                <img alt="Elixir logo" src="/images/icons/elixir.png" />
                 <div className="tooltip">
                   <h1>Elixir</h1>
                 </div>

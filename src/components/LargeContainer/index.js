@@ -96,16 +96,19 @@ function LargeContainer() {
             ]}
             icons={[
               {
-                src: "https://img.icons8.com/officel/80/000000/react.png",
+                src: "/images/icons/react.png",
                 alt: "React logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                src: "/images/icons/mysql.png",
                 alt: "MySQL logo",
               },
-              { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
-                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                src: "/images/icons/tailwind-css.png",
+                alt: "TailwindCSS logo",
+              },
+              {
+                src: "/images/icons/javascript.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -135,19 +138,19 @@ function LargeContainer() {
             ]}
             icons={[
               {
-                src: "https://img.icons8.com/officel/80/000000/react.png",
+                src: "/images/icons/react.png",
                 alt: "React logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                src: "/images/icons/mysql.png",
                 alt: "MySQL logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/firebase.png",
+                src: "/images/icons/firebase.png",
                 alt: "Firebase logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                src: "/images/icons/javascript.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -180,12 +183,15 @@ function LargeContainer() {
             ]}
             icons={[
               {
-                src: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
+                src: "/images/icons/nextjs.png",
                 alt: "Next js logo",
               },
-              { src: "/images/tailwind-css.png", alt: "TailwindCSS logo" },
               {
-                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                src: "/images/icons/tailwind-css.png",
+                alt: "TailwindCSS logo",
+              },
+              {
+                src: "/images/icons/javascript.png",
                 alt: "Javascript Logo",
               },
             ]}
@@ -211,15 +217,15 @@ function LargeContainer() {
             dependancies={["React", "Vite", "TailwindCSS", "Typescript"]}
             icons={[
               {
-                src: "https://img.icons8.com/officel/80/000000/react.png",
+                src: "/images/icons/react.png",
                 alt: "React Logo",
               },
               {
-                src: "/images/tailwind-css.png",
+                src: "/images/icons/tailwind-css.png",
                 alt: "TailwindCSS Logo",
               },
               {
-                src: "https://img.icons8.com/color/80/000000/typescript.png",
+                src: "/images/icons/typescript.png",
                 alt: "Typescript Logo",
               },
             ]}
@@ -243,15 +249,15 @@ function LargeContainer() {
             dependancies={["Javascript", "React", "HTML", "Sequelize", "MySQL"]}
             icons={[
               {
-                src: "https://img.icons8.com/officel/80/000000/react.png",
+                src: "/images/icons/react.png",
                 alt: "React logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
+                src: "/images/icons/mysql.png",
                 alt: "MySQL logo",
               },
               {
-                src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+                src: "/images/icons/javascript.png",
                 alt: "Javascript Logo",
               },
             ]}
