@@ -116,7 +116,7 @@ function LargeContainer() {
             openModal={setModal}
           />
           <Project
-            liveApp={"https://upperlevelkicks.net/"}
+            liveApp={"https://web-sneaker-app.herokuapp.com/"}
             githubApp={"https://github.com/daedadev/upper-level-kicks"}
             title={"Upper Level Kicks"}
             image={`url(${process.env.PUBLIC_URL + "/images/UpperLevel3.PNG"})`}
