@@ -21,7 +21,7 @@
 }
 
 .text-p {
-  position: relative;
+  position: absolute;
   color: aliceblue;
   font-size: 25px;
   background-color: #4b5563;
@@ -34,10 +34,10 @@
 .icon-holder{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-items: flex-end;
   width: fit-content;
   padding: 10px;
-  height: 50px;
+  height: 100%;
   border-radius: 0 10px 0px 0;
   margin-bottom: 5px;
 }
@@ -148,6 +148,6 @@
   .icon-holder{
     margin-left: 3px;
     padding: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
   }
 }
