@@ -122,11 +122,11 @@ function AboutMe() {
         </article>
         <article className="paragraph">
           <p>
-            My name is Daniel Moore and I am software developer who is always
-            <strong> looking to dive deeper into tech.</strong> creating
+            My name is Daniel Moore and I am a software developer who is always
+            <strong> looking to dive deeper into tech.</strong> Creating
             responsive and scalable frontends with react is my favorite thing to
-            do. While creating intricate backends with node and Sequelize is
-            what comes natural to me.
+            do and creating intricate backends with node and Sequelize is what
+            comes natural to me.
           </p>
           <img
             src={`${process.env.PUBLIC_URL + "images/ProfilePicture.jpeg"}`}
