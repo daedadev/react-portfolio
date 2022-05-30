@@ -85,13 +85,17 @@ function ProjectInfo({
             <button id="close-player" onClick={hideModal}>
               X
             </button>
-            <ReactPlayer
-              height="80%"
-              width="70%"
-              controls
-              url={video}
-              playing={modalOpen}
-            />
+            {video === "" ? (
+              <h1>Video Currently Unavailable</h1>
+            ) : (
+              <ReactPlayer
+                height="80%"
+                width="70%"
+                controls
+                url={video}
+                playing={modalOpen}
+              />
+            )}
           </div>
         </div>
       </section>
