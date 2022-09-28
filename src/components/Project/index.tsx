@@ -1,22 +1,23 @@
+import React from 'react';
+import { IProjectData } from "src/types";
 import "./style.css";
 
-function Project({
-  liveApp,
-  githubApp,
-  title,
-  image,
-  classy,
-  info,
-  challenges,
-  triumphs,
-  dependancies,
-  icons,
-  video,
-  openModal,
-}) {
+function Project(props: IProjectData) {
+  const {  liveApp,
+    githubApp,
+    title,
+    image,
+    classy,
+    info,
+    challenges,
+    triumphs,
+    dependancies,
+    icons,
+    video,
+  } = props
   return (
     <>
-      <button
+      {/* <button
         style={{
           backgroundImage: image,
         }}
@@ -50,6 +51,19 @@ function Project({
           })}
         </div>
       </button>
+      <ProjectInfo
+          liveApp={liveApp}
+          githubApp={githubApp}
+          title={title}
+          image={image}
+          info={info}
+          challenges={challenges}
+          triumphs={triumphs}
+          dependancies={dependancies}
+          video={video}
+          showProject={showProject}
+          toggleModal={toggleModal}
+        /> */}
     </>
   );
 }
