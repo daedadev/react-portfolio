@@ -58,7 +58,7 @@ export function Header() {
             </li>
           </ul>
           <ul id="nav-image-list">
-            <a href="https://github.com/wron1">
+            <a href="https://github.com/Daedadev">
               <img
                 className="nav-images"
                 src="https://img.icons8.com/color/240/000000/github--v1.png"
