@@ -1,6 +1,6 @@
 .large-cell {
   display: flex;
-  z-index: 2;
+  z-index: 10;
   position: absolute;
   flex-direction: column;
   width: 95%;
@@ -34,6 +34,7 @@
 #modal-button {
   position: absolute;
   display: flex;
+  color: black;
   align-items: center;
   justify-content: center;
   font-size: 40px;
@@ -50,6 +51,10 @@
   transition: 0.2s;
 }
 
+#modal-button h1{
+  color: black;
+}
+
 #modal-button:hover {
   background-color: aliceblue;
   border-color: aliceblue;
@@ -57,17 +62,16 @@
 }
 
 #modal-button:active {
-  color: #d7dff8;
   background-color: #d7dff8;
   border-color: aliceblue;
 }
 
 .close-large-modal {
   opacity: 0;
-  z-index: 1;
+  z-index: -1;
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
 }

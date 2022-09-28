@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function Header() {
+export function Header() {
   const [theClassName, setTheClassName] = useState("default");
 
   function activateDirectory() {
@@ -96,5 +96,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

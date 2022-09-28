@@ -1,8 +1,8 @@
-import LargeContainer from "../components/LargeContainer";
-import Wrapper from "../components/Wrapper";
-import Banner from "../components/Banner";
+import { LargeContainer } from "../components/LargeContainer";
+import { Wrapper } from "../components/Wrapper";
+import { Banner } from "../components/Banner";
 
-function MainPage() {
+export function MainPage() {
   return (
     <Wrapper>
       <Banner />
@@ -10,5 +10,3 @@ function MainPage() {
     </Wrapper>
   );
 }
-
-export default MainPage;

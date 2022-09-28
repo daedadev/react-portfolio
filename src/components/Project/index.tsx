@@ -1,41 +1,22 @@
-import React from 'react';
-import { IProjectData } from "src/types";
+import React, {useState} from 'react';
+import { IProjectProps } from "src/types";
+import { ProjectModal } from '../ProjectModal';
 import "./style.css";
 
-function Project(props: IProjectData) {
-  const {  liveApp,
-    githubApp,
-    title,
-    image,
-    classy,
-    info,
-    challenges,
-    triumphs,
-    dependancies,
-    icons,
-    video,
-  } = props
+export function Project({ liveApp, githubApp, title, image, classy, info, 
+  challenges, triumphs, dependancies, icons, video }: IProjectProps) {
+
+    const [toggleModal, setToggleModal] = useState(false);
+
   return (
     <>
-      {/* <button
+      <a
         style={{
           backgroundImage: image,
         }}
+        onClick={() => setToggleModal(true)}
         className={classy}
-        onClick={() =>
-          openModal(
-            liveApp,
-            githubApp,
-            title,
-            image,
-            info,
-            challenges,
-            triumphs,
-            dependancies,
-            video,
-            openModal
-          )
-        }
+        href="/#project-info"
       >
         <p className="text-p">{title}</p>
         <div className="icon-holder">
@@ -50,22 +31,20 @@ function Project(props: IProjectData) {
             );
           })}
         </div>
-      </button>
-      <ProjectInfo
-          liveApp={liveApp}
-          githubApp={githubApp}
-          title={title}
-          image={image}
-          info={info}
-          challenges={challenges}
-          triumphs={triumphs}
-          dependancies={dependancies}
-          video={video}
-          showProject={showProject}
-          toggleModal={toggleModal}
-        /> */}
+      </a>
+      <ProjectModal
+        liveApp={liveApp}
+        githubApp={githubApp}
+        title={title}
+        image={image}
+        info={info}
+        challenges={challenges}
+        triumphs={triumphs}
+        dependancies={dependancies}
+        video={video}
+        setToggleModal={setToggleModal}
+        toggleModal={toggleModal}
+      />
     </>
   );
 }
-
-export default Project;

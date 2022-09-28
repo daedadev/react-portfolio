@@ -1,6 +1,6 @@
-import { IProjectData } from "src/types";
+import { IProjectProps } from "src/types";
 
-export const projectData: IProjectData[] = [
+export const projectData: IProjectProps[] = [
     {
       liveApp: 'https://react-shop-cms.herokuapp.com/',
       githubApp: 'https://github.com/daedadev/Shop-CMS',

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Carousel from "react-elastic-carousel";
 
-function Banner() {
+export function Banner() {
   const carouselOneProps = {
     enableAutoPlay: true,
     autoPlaySpeed: 1000,
@@ -48,5 +48,3 @@ function Banner() {
     </div>
   );
 }
-
-export default Banner;

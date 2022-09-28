@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function ContactForm() {
+export function ContactForm() {
   return (
     <form
       id="contact-form"
@@ -27,5 +27,3 @@ function ContactForm() {
     </form>
   );
 }
-
-export default ContactForm;
