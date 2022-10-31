@@ -9,7 +9,7 @@ import ResumePage from "../../pages/ResumePage";
 
 export function AppNav() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Wrapper>
         <Header />
         <Switch>
