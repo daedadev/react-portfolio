@@ -16,6 +16,9 @@ export function AppNav() {
           <Route exact path="/">
             <MainPage />
           </Route>
+          <Route exact path="/project-info">
+            <MainPage />
+          </Route>
           <Route exact path="/aboutme-section">
             <MainPage />
           </Route>

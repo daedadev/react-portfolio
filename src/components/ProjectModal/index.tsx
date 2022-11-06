@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./style.css";
 import ReactPlayer from "react-player";
 import { IProjectModalProps } from "src/types";
@@ -7,6 +7,7 @@ export function ProjectModal({
   liveApp, githubApp, info, challenges, triumphs, image, title,
   dependancies, video, toggleModal, setToggleModal }: IProjectModalProps) {
 
+  const projectRef = useRef<any>();
   const [modalOpen, setModalOpen] = useState(false);
 
   const openLiveApp = () => {
@@ -16,9 +17,27 @@ export function ProjectModal({
     window.open(githubApp);
   };
 
+  const handleWindowClick = (e: any) => {
+    if (projectRef.current && !projectRef.current.contains(e.target)) {
+      console.log('brij')
+      if(toggleModal){
+        setToggleModal(false)
+      }
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("click", handleWindowClick);
+    return () => {
+      window.removeEventListener("click", handleWindowClick);
+    };
+  }, [toggleModal]);
+
   return (
     <>
-      <section className={toggleModal ? `large-cell` : `display-off`}>
+      <section
+        ref={projectRef}
+        className={toggleModal ? `large-cell` : `display-off`}>
         <span id="project-info" className="mobile-jump"></span>
         <section id="title-cell">
           <h2>{title}</h2>

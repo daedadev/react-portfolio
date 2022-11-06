@@ -1,11 +1,13 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { IProjectProps } from "src/types";
 import { ProjectModal } from '../ProjectModal';
 import "./style.css";
 
-export function Project({ liveApp, githubApp, title, image, classy, info, 
-  challenges, triumphs, dependancies, icons, video }: IProjectProps) {
-
+export function Project( props: IProjectProps) {
+  const {liveApp, githubApp, title, image, 
+    classy, info, challenges, triumphs, 
+    dependancies, icons, video} = props;
+  
     const [toggleModal, setToggleModal] = useState(false);
 
   return (
