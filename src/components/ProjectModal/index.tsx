@@ -31,7 +31,7 @@ export function ProjectModal({
     return () => {
       window.removeEventListener("click", handleWindowClick);
     };
-  }, [toggleModal]);
+  }, [toggleModal, handleWindowClick]);
 
   return (
     <>
