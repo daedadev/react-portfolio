@@ -6,7 +6,7 @@ export const projectData: IProjectProps[] = [
       githubApp: 'https://github.com/daedadev/Shop-CMS',
       title: 'Shop Management System',
       image: `url(${process.env.PUBLIC_URL + "/images/HomePage.PNG"})`,
-      classy: 'large-work',
+      classy: 'small-work',
       info: 'This project serves as a backend to a small shop. This program being software to manage content you can view and edit your inventory, view users from your store, see orders and mark them as fulfilled, and see different helpful statistics to visualize your websites growth.',
       challenges: 'The biggest challenge was documenting and finally thinking like an engineer. Creating software is difficult, but creating useable software has been a nightmare.',
       triumphs: 'Creating a scalable API coupled with a functional UI was my biggest achievement during this project. Documentation was also a big part of this project. I documented as much as I could when I could. The github has all of my final thoughts while my blog has my preliminary thought process.',
@@ -75,6 +75,38 @@ export const projectData: IProjectProps[] = [
       video: "https://youtu.be/qqO8OebHBeE",
     },
     {
+      liveApp: "https://daedadev.github.io/Chipotle-Meal/", 
+      githubApp: "https://github.com/daedadev/Chipotle-Meal", 
+      title: "Chipotle Meal Generator", 
+      image: `url(${process.env.PUBLIC_URL + "/images/chipotle.PNG"})`, 
+      classy: "small-work", 
+      info: 
+        "This project was designed to make the hard choices for you. Everyone has gone to Chipotle and not had any idea of what to order. This app takes the heavy weight of deciding off of your shoulders."
+      , 
+      challenges: 
+        "This project was a part of a technical challenge and was developed over the course of 2 days."
+      , 
+      triumphs: 
+        "I successfully created an application that generates an order randomly from Chipotle and presented it in a way that resembles the Chipotle website."
+      , 
+      dependancies: ["React", "Vite", "TailwindCSS", "Typescript"], 
+      icons: [
+        {
+          src: "/images/icons/react.png",
+          alt: "React Logo",
+        },
+        {
+          src: "/images/icons/tailwind-css.png",
+          alt: "TailwindCSS Logo",
+        },
+        {
+          src: "/images/icons/typescript.png",
+          alt: "Typescript Logo",
+        },
+      ], 
+      video: "", 
+    },
+    {
       liveApp: "https://daedadev-blog.vercel.app/",
       githubApp: "https://github.com/daedadev/Daedadev-Blog",
       title: "Personal Blog",
@@ -114,68 +146,36 @@ export const projectData: IProjectProps[] = [
       ],
       video: "https://youtu.be/EM7jGBTUW_M",
     },
-    {
-      liveApp: "https://daedadev.github.io/Chipotle-Meal/", 
-      githubApp: "https://github.com/daedadev/Chipotle-Meal", 
-      title: "Chipotle Meal Generator", 
-      image: `url(${process.env.PUBLIC_URL + "/images/chipotle.PNG"})`, 
-      classy: "small-work", 
-      info: 
-        "This project was designed to make the hard choices for you. Everyone has gone to Chipotle and not had any idea of what to order. This app takes the heavy weight of deciding off of your shoulders."
-      , 
-      challenges: 
-        "This project was a part of a technical challenge and was developed over the course of 2 days."
-      , 
-      triumphs: 
-        "I successfully created an application that generates an order randomly from Chipotle and presented it in a way that resembles the Chipotle website."
-      , 
-      dependancies: ["React", "Vite", "TailwindCSS", "Typescript"], 
-      icons: [
-        {
-          src: "/images/icons/react.png",
-          alt: "React Logo",
-        },
-        {
-          src: "/images/icons/tailwind-css.png",
-          alt: "TailwindCSS Logo",
-        },
-        {
-          src: "/images/icons/typescript.png",
-          alt: "Typescript Logo",
-        },
-      ], 
-      video: "", 
-    },
-    {
-      liveApp: "https://reactappbooksearch.herokuapp.com/", 
-      githubApp: "https://github.com/daedadev/google-book-search", 
-      title: "Google Book Search", 
-      image: `url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`, 
-      classy: "small-work", 
-      info: `This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`, 
-      challenges: 
-        "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
-      , 
-      triumphs: 
-        "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
-      , 
-      dependancies: ["Javascript", "React", "HTML", "Sequelize", "MySQL"], 
-      icons: [
-        {
-          src: "/images/icons/react.png",
-          alt: "React logo",
-        },
-        {
-          src: "/images/icons/mysql.png",
-          alt: "MySQL logo",
-        },
-        {
-          src: "/images/icons/javascript.png",
-          alt: "Javascript Logo",
-        },
-      ], 
-      video: "https://youtu.be/x_acOZ1RJS0", 
-    }
+    // {
+    //   liveApp: "https://reactappbooksearch.herokuapp.com/", 
+    //   githubApp: "https://github.com/daedadev/google-book-search", 
+    //   title: "Google Book Search", 
+    //   image: `url(${process.env.PUBLIC_URL + "/images/googlebooks.PNG"})`, 
+    //   classy: "small-work", 
+    //   info: `This project uses the Google Book API to search and view books. With a React front-end and a MySQL back-end you can quickly and easily view, save, and delete books. Please allow for a 10 to 15 second startup for the liveapp due to heroku deployment`, 
+    //   challenges: 
+    //     "The hardest part about this project was definitely parsing the data into componential pieces that could be easily re-used. Dealing with the modal was also a bit of a challenge but once it was working plugging in the info was a breeze."
+    //   , 
+    //   triumphs: 
+    //     "Completed the ability to view, save, and delete books with a react front-end and a MySQL back-end. Deploying this app to heroku was a big success for me."
+    //   , 
+    //   dependancies: ["Javascript", "React", "HTML", "Sequelize", "MySQL"], 
+    //   icons: [
+    //     {
+    //       src: "/images/icons/react.png",
+    //       alt: "React logo",
+    //     },
+    //     {
+    //       src: "/images/icons/mysql.png",
+    //       alt: "MySQL logo",
+    //     },
+    //     {
+    //       src: "/images/icons/javascript.png",
+    //       alt: "Javascript Logo",
+    //     },
+    //   ], 
+    //   video: "https://youtu.be/x_acOZ1RJS0", 
+    // }
   ]
 
 
